@@ -1,0 +1,1001 @@
+customer_id,Recency,Frequency,Monetary,name,registration_date,R_Score,F_Score,M_Score,RFM_Score,RFM_Numeric,Segment
+1,7,6,1575.32,Allison Hill,2025-01-20,5,5,4,554,554,Champions
+2,96,2,464.72,Robert Wolfe,2023-10-27,3,1,1,311,311,New Customers
+3,70,4,1781.83,Matthew Mejia,2024-10-21,3,4,4,344,344,Loyal Customers
+4,6,6,3948.7,Patty Perez,2024-03-26,5,5,5,555,555,Champions
+5,44,4,3453.65,Zachary Hicks,2024-05-05,3,4,5,345,345,Loyal Customers
+6,363,1,1969.04,Sherri Baker,2023-07-21,1,1,4,114,114,About to Sleep
+7,302,3,323.16,Theresa Miller,2023-12-07,1,3,1,131,131,Lost
+8,110,2,424.75,Alex Spencer,2023-10-26,2,1,1,211,211,Hibernating
+9,100,2,1226.38,Jeffrey Henderson,2025-01-19,2,1,3,213,213,Hibernating
+10,162,2,971.88,Annette Pearson,2024-04-13,2,1,2,212,212,Hibernating
+11,23,3,379.46,Whitney Peters,2025-02-27,4,3,1,431,431,Lost
+12,37,4,1661.02,Todd Hudson,2024-05-09,4,4,4,444,444,Loyal Customers
+13,43,1,574.4,Dr. Angel Lewis MD,2024-07-17,4,1,2,412,412,New Customers
+14,440,2,463.26,Larry Robbins,2023-07-05,1,1,1,111,111,Lost
+15,66,2,436.64,Juan Jordan,2025-01-15,3,1,1,311,311,New Customers
+16,66,2,637.29,Rita Adams,2024-09-19,3,1,2,312,312,Lost
+17,304,2,2348.88,William Herrera,2023-06-10,1,1,4,114,114,About to Sleep
+18,83,2,3100.53,Kimberly Ball,2024-07-13,3,1,5,315,315,Promising
+19,73,3,2378.62,Dustin Jordan,2023-08-01,3,3,4,334,334,Need Attention
+20,33,3,664.6,Mark Lee,2025-01-24,4,3,2,432,432,Lost
+21,320,2,2114.19,Jessica Meadows,2023-09-27,1,1,4,114,114,About to Sleep
+22,106,4,2063.1,Christian Lewis,2023-06-30,2,4,4,244,244,At Risk
+23,16,3,1977.3,Michael Powell,2024-02-02,5,3,4,534,534,Lost
+24,53,1,1096.07,Jamie Walton,2023-08-31,3,1,3,313,313,Promising
+25,72,4,897.64,Julie Scott,2024-06-12,3,4,2,342,342,Lost
+26,58,1,68.22,Samuel Short,2025-03-14,3,1,1,311,311,New Customers
+27,4,2,944.79,John Bishop,2024-12-14,5,1,2,512,512,New Customers
+28,109,4,1203.1,Maria Henry,2023-09-05,2,4,3,243,243,At Risk
+29,13,2,702.97,Bryan Herrera,2025-03-04,5,1,2,512,512,New Customers
+30,210,2,881.4,Shane Andrews MD,2024-06-25,1,1,2,112,112,Lost
+31,329,2,343.72,Jeremy Dalton,2023-07-02,1,1,1,111,111,Lost
+32,56,2,1621.35,Douglas Heath,2025-01-31,3,1,4,314,314,Promising
+33,63,1,697.65,Jessica Harrison,2024-09-27,3,1,2,312,312,Lost
+34,6,2,720.18,Catherine Richards,2025-02-01,5,1,2,512,512,New Customers
+35,50,1,984.62,Sean Murray,2023-08-16,3,1,2,312,312,Lost
+36,14,3,1177.7,Susan Murray MD,2025-04-21,5,3,3,533,533,Potential Loyalists
+37,34,2,1619.55,Samantha Campbell,2025-04-06,4,1,4,414,414,Promising
+38,116,4,1804.85,William Sparks,2024-09-06,2,4,4,244,244,At Risk
+39,143,3,2268.21,Bobby Murphy,2024-02-26,2,3,4,234,234,At Risk
+40,47,4,1668.55,David Jenkins,2024-09-18,3,4,4,344,344,Loyal Customers
+41,47,3,907.05,David Bruce,2025-01-12,3,3,2,332,332,Hibernating
+42,191,4,1537.79,Heather Fields,2023-12-13,1,4,3,143,143,At Risk
+43,42,2,1363.39,Karen Drake,2025-03-16,4,1,3,413,413,Promising
+44,143,2,576.13,Suzanne Walker,2024-08-11,2,1,2,212,212,Hibernating
+45,202,3,288.31,Stacey Pena,2023-08-15,1,3,1,131,131,Lost
+46,176,3,2191.9,Mark Maddox,2024-07-07,2,3,4,234,234,At Risk
+47,125,2,414.92,Ashley Delacruz,2024-08-15,2,1,1,211,211,Hibernating
+48,10,1,530.94,Daniel Gilbert,2025-01-08,5,1,1,511,511,New Customers
+49,65,6,817.81,Matthew Rich,2024-07-19,3,5,2,352,352,Lost
+50,256,2,932.95,Kristina Rivera,2023-11-21,1,1,2,112,112,Lost
+51,164,4,2044.05,Justin Saunders,2024-04-10,2,4,4,244,244,At Risk
+52,57,4,3283.97,Jacob Griffith,2024-10-16,3,4,5,345,345,Loyal Customers
+53,116,3,2278.43,Mr. Andrew Foster,2023-06-22,2,3,4,234,234,At Risk
+54,110,4,2480.85,Shannon Johnston,2023-08-05,2,4,4,244,244,At Risk
+55,188,1,182.48,Nichole Walker,2024-10-18,1,1,1,111,111,Lost
+56,10,2,1303.02,Maria Downs,2025-02-05,5,1,3,513,513,Promising
+57,197,4,2709.85,Sean Wyatt,2023-08-09,1,4,5,145,145,At Risk
+58,401,1,22.07,Amanda Zimmerman,2023-08-07,1,1,1,111,111,Lost
+59,456,2,1511.77,Sydney Collins,2023-11-21,1,1,3,113,113,About to Sleep
+60,92,2,2007.22,Billy Richard,2024-12-07,3,1,4,314,314,Promising
+61,3,3,586.02,Joseph Collins,2025-02-16,5,3,2,532,532,Potential Loyalists
+62,217,2,1363.8,Dominique Hines,2023-06-29,1,1,3,113,113,About to Sleep
+63,48,5,3340.1,Sara Santos,2023-11-30,3,5,5,355,355,Loyal Customers
+64,268,3,2069.59,Lisa Brown,2024-03-17,1,3,4,134,134,At Risk
+65,86,3,1959.62,Paul Kelly,2024-12-27,3,3,4,334,334,Need Attention
+66,3,6,4888.89,Edward Williams,2025-05-20,5,5,5,555,555,Champions
+67,526,1,594.97,Jonathan Glass MD,2023-07-09,1,1,2,112,112,Lost
+68,94,2,295.77,Heather Bolton,2023-09-29,3,1,1,311,311,New Customers
+69,59,5,4353.37,Jacob Wallace,2024-05-04,3,5,5,355,355,Loyal Customers
+70,38,2,2787.9,Jill Miller,2024-08-29,4,1,5,415,415,Promising
+71,78,4,4087.49,Eric Key,2025-02-05,3,4,5,345,345,Loyal Customers
+72,3,3,638.98,Elizabeth Martin,2025-03-29,5,3,2,532,532,Potential Loyalists
+73,62,2,494.53,Thomas Williams,2024-04-25,3,1,1,311,311,New Customers
+74,14,3,707.49,Mr. Lawrence Edwards,2025-05-12,5,3,2,532,532,Potential Loyalists
+75,122,5,2603.85,Robin Peck,2024-07-05,2,5,5,255,255,At Risk
+76,7,2,3017.47,Jessica Khan,2025-01-10,5,1,5,515,515,Potential Loyalists
+77,382,2,1374.76,Todd Fischer,2024-02-09,1,1,3,113,113,About to Sleep
+78,44,5,2906.1,Kim Erickson,2024-07-31,3,5,5,355,355,Loyal Customers
+79,253,2,1364.36,Cheryl Alexander,2024-05-27,1,1,3,113,113,About to Sleep
+80,87,3,2973.72,Diana Evans,2024-05-24,3,3,5,335,335,Loyal Customers
+81,242,2,1567.88,Joshua Fitzpatrick,2024-04-01,1,1,4,114,114,About to Sleep
+82,109,6,3332.3,Sherry Woods,2024-01-03,2,5,5,255,255,At Risk
+83,73,2,934.8,Kimberly Snyder DVM,2024-05-23,3,1,2,312,312,Lost
+84,32,4,1627.12,Adriana Reyes,2023-09-02,4,4,4,444,444,Loyal Customers
+85,30,4,3036.58,Elizabeth Mendez,2024-07-31,4,4,5,445,445,Champions
+86,50,2,857.83,Garrett Meyer,2025-01-25,3,1,2,312,312,Lost
+87,242,2,260.18,Laura Williams,2023-09-10,1,1,1,111,111,Lost
+88,40,3,3749.95,Sandy Avila,2024-10-12,4,3,5,435,435,Loyal Customers
+89,2,6,5301.45,Dana Williams,2024-01-14,5,5,5,555,555,Champions
+90,46,1,644.3,Travis Hobbs,2025-02-24,3,1,2,312,312,Lost
+91,24,4,4379.19,Joel Brown,2023-10-24,4,4,5,445,445,Champions
+92,170,3,1702.55,Misty Hansen,2024-02-26,2,3,4,234,234,At Risk
+93,39,3,1364.84,Jose Crawford,2024-03-12,4,3,3,433,433,Lost
+94,297,2,882.81,Kathryn Pena,2023-11-25,1,1,2,112,112,Lost
+95,3,1,1705.29,Alexa Wagner,2024-09-04,5,1,4,514,514,Potential Loyalists
+96,155,2,775.97,Hector Norton,2024-09-22,2,1,2,212,212,Hibernating
+97,215,4,1246.14,William Dickson,2024-01-13,1,4,3,143,143,At Risk
+98,1,3,734.91,Lacey Atkinson,2025-04-26,5,3,2,532,532,Potential Loyalists
+99,360,1,259.58,Michael Guerrero,2023-09-13,1,1,1,111,111,Lost
+100,310,2,307.79,Jerry Peters,2024-03-13,1,1,1,111,111,Lost
+101,172,2,278.98,Eric Snyder,2024-04-25,2,1,1,211,211,Hibernating
+102,48,2,250.18,Rodney Curtis,2023-08-31,3,1,1,311,311,New Customers
+103,3,2,834.3,Leslie Gardner,2025-06-02,5,1,2,512,512,New Customers
+104,44,2,639.34,James Hunter,2024-12-05,3,1,2,312,312,Lost
+105,3,6,3286.06,Melissa Walker,2024-11-17,5,5,5,555,555,Champions
+106,122,4,1095.87,Austin Williams,2024-08-14,2,4,3,243,243,At Risk
+107,16,3,1353.65,Michael Harris,2025-02-16,5,3,3,533,533,Potential Loyalists
+108,114,3,3836.4,Robin Mccarthy,2024-05-29,2,3,5,235,235,At Risk
+109,15,2,1201.71,Tamara Arias,2024-11-09,5,1,3,513,513,Promising
+110,124,2,993.55,Christopher Cunningham,2024-12-09,2,1,2,212,212,Hibernating
+111,178,2,1577.4,Zachary Cole,2024-01-06,2,1,4,214,214,About to Sleep
+112,170,6,3500.47,Scott Duke,2023-08-03,2,5,5,255,255,At Risk
+113,30,2,1846.95,Patricia Powell,2025-02-21,4,1,4,414,414,Promising
+114,275,2,313.2,Stephanie Farmer,2023-08-08,1,1,1,111,111,Lost
+115,25,4,3793.54,Mariah Williams,2024-10-28,4,4,5,445,445,Champions
+116,16,5,2186.76,Darryl Davis,2024-09-01,5,5,4,554,554,Champions
+117,41,5,2001.03,Daniel Mosley,2024-12-06,4,5,4,454,454,Champions
+118,289,3,3269.43,Anthony Hurst,2023-11-13,1,3,5,135,135,At Risk
+119,175,3,1992.72,Tiffany Sanders,2024-10-31,2,3,4,234,234,At Risk
+120,19,2,2403.74,Sarah Brown,2025-03-17,4,1,4,414,414,Promising
+121,12,4,2889.35,Alyssa Roman,2024-11-18,5,4,5,545,545,Champions
+122,3,3,2311.9,Jordan Williams,2025-03-29,5,3,4,534,534,Lost
+123,8,2,351.24,Robert Jarvis,2025-03-28,5,1,1,511,511,New Customers
+124,135,3,3249.87,Danielle Smith,2024-11-02,2,3,5,235,235,At Risk
+125,588,2,421.08,William Miller,2023-08-02,1,1,1,111,111,Lost
+126,96,4,2407.52,Richard Richards,2024-03-24,3,4,4,344,344,Loyal Customers
+127,53,1,195.88,Edwin Wilkins,2024-10-22,3,1,1,311,311,New Customers
+128,347,4,2712.29,Angela Willis,2023-11-12,1,4,5,145,145,At Risk
+129,57,2,2617.74,Douglas Stephenson,2024-07-11,3,1,5,315,315,Promising
+130,468,1,14.58,Dr. Jonathan Price,2023-11-28,1,1,1,111,111,Lost
+131,61,2,226.1,Oscar Howard,2024-05-23,3,1,1,311,311,New Customers
+132,7,7,3539.45,Lucas Drake,2025-05-02,5,5,5,555,555,Champions
+133,62,1,319.74,Toni Banks,2024-07-26,3,1,1,311,311,New Customers
+134,32,2,712.4,Brenda Mcgee,2025-03-16,4,1,2,412,412,New Customers
+135,234,1,385.49,James Payne Jr.,2024-08-16,1,1,1,111,111,Lost
+136,96,3,966.21,Karen Johnson,2023-09-29,3,3,2,332,332,Hibernating
+137,198,2,686.06,Jeffrey Phillips,2023-10-23,1,1,2,112,112,Lost
+138,28,4,921.72,Jeremiah Baker,2024-07-30,4,4,2,442,442,Lost
+139,194,2,258.23,Laura Mcgrath,2024-03-18,1,1,1,111,111,Lost
+140,6,4,2362.72,Gabriel Hill,2023-12-19,5,4,4,544,544,Champions
+141,184,2,2714.1,Laura Kennedy,2024-04-27,1,1,5,115,115,About to Sleep
+142,336,4,843.25,Debra Butler,2023-12-08,1,4,2,142,142,At Risk
+143,153,6,3431.86,Thomas Bush,2023-06-29,2,5,5,255,255,At Risk
+144,7,3,1597.14,Scott Chan,2025-05-15,5,3,4,534,534,Lost
+145,133,3,1726.76,Jessica Bennett,2023-12-16,2,3,4,234,234,At Risk
+146,2,2,642.11,Stephanie Evans,2025-04-01,5,1,2,512,512,New Customers
+147,9,4,1388.83,Katie Bruce,2025-03-03,5,4,3,543,543,Loyal Customers
+148,12,2,404.31,Terry Jones,2024-09-14,5,1,1,511,511,New Customers
+149,22,3,1039.17,Donald Juarez,2025-02-07,4,3,3,433,433,Lost
+150,128,4,1504.27,Michael Sims,2024-04-21,2,4,3,243,243,At Risk
+151,68,2,1675.21,Brandi Ferrell,2025-02-09,3,1,4,314,314,Promising
+152,4,4,1539.28,Brian Wallace,2023-08-31,5,4,3,543,543,Loyal Customers
+153,237,1,1529.91,Craig Gonzalez,2024-09-22,1,1,3,113,113,About to Sleep
+154,11,2,572.59,William Baker,2024-03-27,5,1,2,512,512,New Customers
+155,26,2,187.19,Denise Cruz,2025-03-13,4,1,1,411,411,New Customers
+156,162,3,3390.49,Stephanie Webb,2024-02-16,2,3,5,235,235,At Risk
+157,62,2,532.35,Janice Combs,2024-05-01,3,1,1,311,311,New Customers
+158,38,2,612.11,Jillian Wilson,2024-02-06,4,1,2,412,412,New Customers
+159,93,6,3047.35,Lindsay Moran,2023-12-11,3,5,5,355,355,Loyal Customers
+160,26,1,80.35,Bryan Phelps,2024-08-04,4,1,1,411,411,New Customers
+161,1,5,1884.95,Betty Hughes,2024-01-07,5,5,4,554,554,Champions
+162,380,2,3075.28,Michael Zavala,2023-12-21,1,1,5,115,115,About to Sleep
+163,70,3,1638.32,Victoria Vega,2024-03-18,3,3,4,334,334,Need Attention
+164,139,2,765.33,Vanessa Edwards,2023-12-19,2,1,2,212,212,Hibernating
+165,305,1,114.61,Ryan Smith,2023-07-28,1,1,1,111,111,Lost
+166,2,4,2066.95,Jennifer Herrera,2023-12-13,5,4,4,544,544,Champions
+167,31,4,2202.22,Allison Black,2025-03-02,4,4,4,444,444,Loyal Customers
+168,31,3,1216.91,Brian Medina,2024-01-26,4,3,3,433,433,Lost
+169,72,7,3044.82,Bryan Smith,2023-10-01,3,5,5,355,355,Loyal Customers
+170,60,3,841.59,Paul Robles,2024-02-15,3,3,2,332,332,Hibernating
+171,8,2,840.62,Matthew Hunt,2025-05-04,5,1,2,512,512,New Customers
+172,20,2,1292.46,Michael Young,2024-09-19,4,1,3,413,413,Promising
+173,2,2,832.01,Ian Frazier,2024-08-13,5,2,2,522,522,Promising
+174,21,2,363.33,Kristen Stephens,2025-05-02,4,2,1,421,421,New Customers
+175,9,3,1103.88,Tracy Fitzgerald,2025-02-04,5,3,3,533,533,Potential Loyalists
+176,90,2,1478.38,Deborah Stephens,2024-09-21,3,2,3,323,323,Lost
+177,41,2,929.85,Cody Cox,2025-04-13,4,2,2,422,422,New Customers
+178,48,2,1842.72,Jennifer Costa,2024-08-18,3,2,4,324,324,Lost
+179,157,2,476.11,James Anderson,2024-04-11,2,2,1,221,221,Hibernating
+180,24,4,1787.63,Melissa Patterson,2024-06-24,4,4,4,444,444,Loyal Customers
+181,2,4,3980.2,Jaime Harris,2025-05-31,5,4,5,545,545,Champions
+182,19,2,582.01,Patricia Sanders,2025-01-30,4,2,2,422,422,New Customers
+183,21,7,5031.49,Kyle Davis,2023-11-25,4,5,5,455,455,Champions
+184,2,2,1920.22,Andrew Allen,2025-04-18,5,2,4,524,524,Promising
+185,246,1,1137.31,Debbie Russell,2024-05-10,1,1,3,113,113,About to Sleep
+186,1,2,314.4,Alyssa Wilson,2023-12-22,5,2,1,521,521,Promising
+187,604,1,3091.63,Melanie Browning,2023-06-13,1,1,5,115,115,About to Sleep
+188,7,2,1196.87,Tina Charles,2025-05-22,5,2,3,523,523,Promising
+189,135,3,2153.83,Julia Norris,2024-03-01,2,3,4,234,234,At Risk
+190,137,2,2527.12,Jerry Duncan,2024-11-16,2,2,5,225,225,At Risk
+191,184,2,1326.4,Elizabeth Hart,2024-08-02,1,2,3,123,123,Hibernating
+192,9,5,3499.04,Carrie Deleon,2024-09-28,5,5,5,555,555,Champions
+193,2,4,3344.23,Lisa Foster,2023-07-25,5,4,5,545,545,Champions
+194,42,6,2387.68,Kimberly Johnson,2024-05-15,4,5,4,454,454,Champions
+195,173,2,1012.63,Taylor Dunn,2023-09-30,2,2,2,222,222,Hibernating
+196,57,1,177.18,Joseph Chang,2024-11-28,3,1,1,311,311,New Customers
+197,193,4,1007.18,James Baker,2024-01-29,1,4,2,142,142,At Risk
+198,28,7,3634.46,Wayne Johnson,2023-12-20,4,5,5,455,455,Champions
+199,229,4,1666.81,Joshua White,2023-10-02,1,4,4,144,144,About to Sleep
+200,66,7,4206.99,Natasha Dunn,2024-08-17,3,5,5,355,355,Loyal Customers
+201,321,1,2031.85,Brandon Moore,2024-03-11,1,1,4,114,114,About to Sleep
+202,4,7,3563.56,Danielle Williams,2024-05-05,5,5,5,555,555,Champions
+203,230,2,991.9,Katie Gross,2023-08-18,1,2,2,122,122,Hibernating
+204,33,3,2507.66,Amanda Pace,2025-04-18,4,3,4,434,434,Lost
+205,1,4,1127.61,John Preston,2023-11-24,5,4,3,543,543,Loyal Customers
+206,4,3,1864.96,Corey Sandoval,2025-04-21,5,3,4,534,534,Lost
+207,10,2,941.82,Krista Shea,2023-06-20,5,2,2,522,522,Promising
+208,22,4,3255.6,Steve Smith,2023-12-13,4,4,5,445,445,Champions
+209,11,1,2243.32,Kelly Carroll,2025-04-19,5,1,4,514,514,Potential Loyalists
+210,139,3,1490.11,Randy Adkins,2023-09-25,2,3,3,233,233,Lost
+211,2,2,1167.22,John Mcgee,2025-04-14,5,2,3,523,523,Promising
+212,4,2,949.94,Michael Henderson,2024-11-22,5,2,2,522,522,Promising
+213,16,7,2446.37,Patrick Sanchez,2023-12-12,5,5,4,554,554,Champions
+214,54,1,2027.01,Curtis Horton,2025-04-16,3,1,4,314,314,Promising
+215,59,5,1899.44,David Moreno,2024-03-14,3,5,4,354,354,Loyal Customers
+216,170,1,923.2,Lisa Garrett,2024-01-27,2,1,2,212,212,Hibernating
+217,189,4,2333.59,Tiffany Wilson,2024-10-24,1,4,4,144,144,About to Sleep
+218,83,1,1407.42,Jonathan Jacobs,2025-03-03,3,1,3,313,313,Promising
+219,324,2,831.32,Frederick Ellis II,2024-03-18,1,2,2,122,122,Hibernating
+220,1,6,3953.8,Tonya Lee,2023-06-27,5,5,5,555,555,Champions
+221,95,1,1007.96,Steven Huang,2025-03-06,3,1,2,312,312,Lost
+222,364,1,228.06,Carla Thomas,2024-05-05,1,1,1,111,111,Lost
+223,66,2,232.74,Kyle Smith,2024-10-12,3,2,1,321,321,Lost
+224,69,3,936.65,Melissa Larson,2024-06-28,3,3,2,332,332,Hibernating
+225,16,3,2073.06,Melissa Salazar,2025-01-19,5,3,4,534,534,Lost
+226,28,6,4230.82,Crystal Roberts,2024-01-19,4,5,5,455,455,Champions
+227,153,3,1362.25,Erica Smith,2023-07-19,2,3,3,233,233,Lost
+228,25,3,1872.6,Krystal Gregory,2025-02-25,4,3,4,434,434,Lost
+229,85,2,1353.3,Denise Miller,2024-02-12,3,2,3,323,323,Lost
+230,198,1,209.68,Dr. Eric Murphy,2024-06-23,1,1,1,111,111,Lost
+231,197,3,789.81,Emily Lane,2023-08-22,1,3,2,132,132,Hibernating
+232,6,1,301.57,Kirsten Nelson,2025-02-09,5,1,1,511,511,New Customers
+233,131,4,374.94,Lisa Edwards,2023-12-14,2,4,1,241,241,Hibernating
+234,24,5,2689.83,Clifford Stark,2024-07-19,4,5,5,455,455,Champions
+235,37,2,950.38,Eric Murray,2025-04-19,4,2,2,422,422,New Customers
+236,16,5,971.74,Katelyn Vargas,2024-09-16,5,5,2,552,552,Potential Loyalists
+237,7,4,1277.43,Charles Hernandez,2025-03-28,5,4,3,543,543,Loyal Customers
+238,51,3,1851.48,April Castro,2023-06-17,3,3,4,334,334,Need Attention
+239,172,1,1439.67,Brianna Dyer,2024-08-23,2,1,3,213,213,Hibernating
+240,179,3,2039.0,Sarah Young,2023-08-12,2,3,4,234,234,At Risk
+241,72,2,362.79,Patrick Horne,2025-01-02,3,2,1,321,321,Lost
+242,197,2,1261.43,Mark Lane,2023-10-14,1,2,3,123,123,Hibernating
+243,45,4,616.39,Brittany Griffin,2023-10-09,3,4,2,342,342,Lost
+244,21,3,1190.67,Sarah Brown,2024-10-16,4,3,3,433,433,Lost
+245,24,2,1518.09,Melanie Williams,2023-06-17,4,2,3,423,423,Lost
+246,18,3,4638.54,Brian Griffin,2025-03-24,4,3,5,435,435,Loyal Customers
+247,79,3,1277.84,Dawn Owens,2024-03-22,3,3,3,333,333,Need Attention
+248,119,1,211.75,Ashley Fernandez,2024-08-02,2,1,1,211,211,Hibernating
+249,33,2,732.99,Teresa Henry,2024-07-03,4,2,2,422,422,New Customers
+250,35,4,3764.63,Angela Stevens,2024-01-19,4,4,5,445,445,Champions
+251,29,2,2011.89,Sandra Cole,2025-04-02,4,2,4,424,424,Promising
+252,120,4,949.31,Dana Banks,2024-10-16,2,4,2,242,242,At Risk
+253,187,4,2132.74,William Johnston,2023-10-02,1,4,4,144,144,About to Sleep
+254,103,2,689.84,Angela Smith,2024-04-10,2,2,2,222,222,Hibernating
+255,30,1,432.24,Cheryl Downs,2024-09-01,4,1,1,411,411,New Customers
+256,4,7,5799.98,Jody Garcia,2025-03-05,5,5,5,555,555,Champions
+257,63,7,3330.84,Daniel Ruiz,2024-07-28,3,5,5,355,355,Loyal Customers
+258,52,2,290.45,Brian Owens,2025-03-07,3,2,1,321,321,Lost
+259,402,2,619.35,Jeffrey Walker,2023-06-18,1,2,2,122,122,Hibernating
+260,426,2,565.02,Tiffany Anderson,2023-07-02,1,2,1,121,121,Lost
+261,198,2,1439.82,Derrick Shah,2024-07-07,1,2,3,123,123,Hibernating
+262,3,3,746.07,Nancy Goodwin,2025-04-30,5,3,2,532,532,Potential Loyalists
+263,27,2,1644.28,Teresa Jones,2024-09-22,4,2,4,424,424,Promising
+264,109,2,1352.82,Arthur Wiggins,2024-12-22,2,2,3,223,223,Lost
+265,183,3,716.66,Harry Bryant,2024-01-26,2,3,2,232,232,Lost
+266,175,1,1216.68,Jake Fernandez,2023-09-18,2,1,3,213,213,Hibernating
+267,26,2,311.05,Elizabeth Morales,2025-04-03,4,2,1,421,421,New Customers
+268,4,2,1405.42,Charles Nash,2025-05-30,5,2,3,523,523,Promising
+269,292,2,1474.11,Tyler Avila,2023-12-18,1,2,3,123,123,Hibernating
+270,59,1,572.65,Sandra Kennedy,2024-06-17,3,1,2,312,312,Lost
+271,93,2,552.79,Sarah Martin,2023-08-17,3,2,1,321,321,Lost
+272,108,2,1377.45,Kimberly Brennan,2023-11-17,2,2,3,223,223,Lost
+273,207,2,1956.33,Steven Austin,2023-09-11,1,2,4,124,124,At Risk
+274,503,2,420.47,Melissa Parker,2023-08-18,1,2,1,121,121,Lost
+275,455,2,1166.44,Lance Matthews,2023-10-12,1,2,3,123,123,Hibernating
+276,148,5,2647.92,April Swanson,2023-09-16,2,5,5,255,255,At Risk
+277,366,1,86.1,Michele Hawkins,2024-04-24,1,1,1,111,111,Lost
+278,356,2,1807.11,Angela Thomas,2023-12-25,1,2,4,124,124,At Risk
+279,65,2,508.72,Maria Ross,2024-01-16,3,2,1,321,321,Lost
+280,326,3,1427.05,Paige Guerrero,2023-10-16,1,3,3,133,133,Lost
+281,37,2,969.77,Peggy Dyer,2024-10-15,4,2,2,422,422,New Customers
+282,57,4,2219.19,Diane Brown,2024-08-15,3,4,4,344,344,Loyal Customers
+283,233,3,1544.69,Ana Torres,2024-06-06,1,3,3,133,133,Lost
+284,2,4,840.61,Mary Jackson,2024-04-16,5,4,2,542,542,Potential Loyalists
+285,222,1,499.5,Billy Colon,2023-11-02,1,1,1,111,111,Lost
+286,151,3,1434.31,David Francis,2024-05-28,2,3,3,233,233,Lost
+287,3,6,4370.33,Jennifer Bullock MD,2025-04-28,5,5,5,555,555,Champions
+288,312,2,552.98,Brenda Rodriguez,2024-04-02,1,2,1,121,121,Lost
+289,24,2,1834.6,Amy Ferguson,2024-09-18,4,2,4,424,424,Promising
+290,239,1,39.56,Stephanie Jennings,2024-04-12,1,1,1,111,111,Lost
+291,28,2,2318.02,Ashlee Martin,2024-10-22,4,2,4,424,424,Promising
+292,168,2,777.2,Emma Mendoza,2024-03-28,2,2,2,222,222,Hibernating
+293,10,6,2465.45,David Davis,2024-11-21,5,5,4,554,554,Champions
+294,633,1,142.87,Christopher Sparks,2023-07-17,1,1,1,111,111,Lost
+295,40,3,704.18,Kaitlin Gomez,2023-12-16,4,3,2,432,432,Lost
+296,62,7,3514.54,William Porter,2023-10-06,3,5,5,355,355,Loyal Customers
+297,2,5,1952.7,Brian Woodard,2025-01-30,5,5,4,554,554,Champions
+298,4,4,1201.33,Mary Lewis,2025-02-05,5,4,3,543,543,Loyal Customers
+299,47,2,376.16,Jordan Moses,2025-03-02,3,2,1,321,321,Lost
+300,24,2,1060.4,Samuel Martin,2024-05-22,4,2,3,423,423,Lost
+301,508,3,2600.11,Jenny Avila,2023-09-25,1,3,5,135,135,At Risk
+302,269,2,534.74,Steven Skinner,2023-08-31,1,2,1,121,121,Lost
+303,405,3,1368.85,Cassie White,2023-09-02,1,3,3,133,133,Lost
+304,42,4,2148.22,John Holt,2025-02-25,4,4,4,444,444,Loyal Customers
+305,33,4,752.0,Angelica Carrillo,2025-02-18,4,4,2,442,442,Lost
+306,369,2,235.86,Linda Spencer,2023-09-02,1,2,1,121,121,Lost
+307,82,2,2239.74,Maria West,2025-02-06,3,2,4,324,324,Lost
+308,1,2,569.84,Morgan Flynn,2025-06-08,5,2,1,521,521,Promising
+309,27,1,1278.64,Dean Rhodes,2025-03-11,4,1,3,413,413,Promising
+310,46,3,1296.24,Chris Vaughn,2024-12-16,3,3,3,333,333,Need Attention
+311,25,3,993.75,Dr. Christian Cox PhD,2025-04-10,4,3,2,432,432,Lost
+312,1,3,961.19,Tiffany Black,2024-11-17,5,3,2,532,532,Potential Loyalists
+313,6,1,453.58,Gregory Wilcox,2025-06-03,5,1,1,511,511,New Customers
+314,101,4,2652.62,Brandon Arnold,2024-01-12,2,4,5,245,245,At Risk
+315,173,4,934.74,Jody Bird,2023-08-07,2,4,2,242,242,At Risk
+316,191,1,307.42,Stephen Alvarez,2024-06-18,1,1,1,111,111,Lost
+317,113,1,1422.3,Melissa Gibson,2024-01-09,2,1,3,213,213,Hibernating
+318,89,3,391.47,Charles Bowers,2024-05-21,3,3,1,331,331,Lost
+319,56,5,3564.01,Lisa Gill,2024-11-06,3,5,5,355,355,Loyal Customers
+320,7,4,2324.92,Rebecca Zimmerman,2025-02-11,5,4,4,544,544,Champions
+321,153,2,2280.56,Angela Ferguson,2024-01-19,2,2,4,224,224,At Risk
+322,247,2,149.44,Christopher Mendez,2024-03-16,1,2,1,121,121,Lost
+323,11,4,3176.68,Antonio Marshall,2024-07-08,5,4,5,545,545,Champions
+324,175,2,476.38,David Cisneros,2024-01-14,2,2,1,221,221,Hibernating
+325,19,5,3612.41,Bryce Taylor,2025-03-24,4,5,5,455,455,Champions
+326,11,3,813.91,Pamela Medina,2025-04-12,5,3,2,532,532,Potential Loyalists
+327,122,2,656.1,Brandon Austin,2024-10-19,2,2,2,222,222,Hibernating
+328,72,2,419.34,Ana Anderson,2024-06-21,3,2,1,321,321,Lost
+329,56,2,299.26,Nathan Williams,2025-01-11,3,2,1,321,321,Lost
+330,166,3,1790.81,Sara Wright,2024-01-15,2,3,4,234,234,At Risk
+331,114,6,5086.93,Andrea Byrd,2023-08-26,2,5,5,255,255,At Risk
+332,198,5,4236.34,Micheal Watkins,2023-09-23,1,5,5,155,155,About to Sleep
+333,30,4,2802.25,Larry Carter,2024-10-26,4,4,5,445,445,Champions
+334,128,2,397.87,Michael Christian,2024-03-09,2,2,1,221,221,Hibernating
+335,214,2,944.87,Ronald Smith,2023-10-14,1,2,2,122,122,Hibernating
+336,297,2,675.39,Danielle Gonzalez,2023-10-27,1,2,2,122,122,Hibernating
+337,56,4,2226.97,James Greene,2024-06-14,3,4,4,344,344,Loyal Customers
+338,32,4,2840.79,Maria Hicks,2024-01-18,4,4,5,445,445,Champions
+339,121,2,3159.84,Laura Walls,2023-12-25,2,2,5,225,225,At Risk
+340,54,2,747.33,Jeremy Baker,2024-11-05,3,2,2,322,322,Hibernating
+341,53,4,2303.72,Dr. Nicole Singh DVM,2024-04-17,3,4,4,344,344,Loyal Customers
+342,127,3,1114.19,Jennifer Gonzales,2024-07-28,2,3,3,233,233,Lost
+343,106,2,710.04,Susan Berry,2023-07-02,2,2,2,222,222,Hibernating
+344,211,2,820.68,Katherine Lopez,2024-07-05,1,2,2,122,122,Hibernating
+345,5,1,291.68,Benjamin Friedman,2025-01-19,5,1,1,511,511,New Customers
+346,78,1,1481.22,Susan Suarez,2024-07-28,3,1,3,313,313,Promising
+347,316,3,811.97,Tracy Allen,2023-08-01,1,3,2,132,132,Hibernating
+348,121,2,1212.1,Nicole James,2023-10-11,2,2,3,223,223,Lost
+349,3,4,2335.53,Brian Phillips,2024-12-24,5,4,4,544,544,Champions
+350,47,2,1492.36,Tanya Brooks,2023-11-07,3,2,3,323,323,Lost
+351,47,3,1842.22,Teresa Martinez,2024-11-10,3,3,4,334,334,Need Attention
+352,187,3,2663.37,Tammy Carroll,2023-11-26,1,3,5,135,135,At Risk
+353,159,5,2412.76,Stephanie Parker,2023-12-29,2,5,4,254,254,At Risk
+354,11,3,2203.73,Paige Meyer,2025-03-05,5,3,4,534,534,Lost
+355,437,2,1593.61,Corey Walters,2024-01-16,1,2,4,124,124,At Risk
+356,26,6,1622.0,Tracy Harris,2024-03-13,4,5,4,454,454,Champions
+357,22,3,3211.14,Douglas Hart,2024-04-02,4,3,5,435,435,Loyal Customers
+358,39,1,129.47,Thomas Cruz,2023-12-06,4,1,1,411,411,New Customers
+359,284,2,1016.03,Mary Martin,2023-12-22,1,2,2,122,122,Hibernating
+360,18,3,1008.04,Paul Hale,2025-05-02,4,3,2,432,432,Lost
+361,35,4,3277.57,Robert Lopez,2024-12-15,4,4,5,445,445,Champions
+362,4,7,4456.56,Derek Moses,2025-03-08,5,5,5,555,555,Champions
+363,15,3,2276.04,April Harrell,2024-02-01,5,3,4,534,534,Lost
+364,18,3,2129.33,Lawrence Ross,2024-10-05,4,3,4,434,434,Lost
+365,19,2,1382.02,Daniel Mullins,2025-04-14,4,2,3,423,423,Lost
+366,98,3,219.53,Greg Kent,2023-06-10,2,3,1,231,231,Hibernating
+367,21,4,2769.39,Joseph Boone,2024-06-08,4,4,5,445,445,Champions
+368,58,2,1391.39,Kyle Thomas,2024-11-01,3,2,3,323,323,Lost
+369,41,2,448.34,Sean White,2025-02-23,4,2,1,421,421,New Customers
+370,37,4,1170.82,Carlos Goodwin,2025-02-13,4,4,3,443,443,Lost
+371,234,2,1330.14,Anne Mccann,2024-09-13,1,2,3,123,123,Hibernating
+372,69,2,289.2,Adam Wilson,2024-07-30,3,2,1,321,321,Lost
+373,458,3,690.89,Arthur Stout,2023-06-12,1,3,2,132,132,Hibernating
+374,38,3,4638.57,Ernest Williams,2024-06-25,4,3,5,435,435,Loyal Customers
+375,6,6,2202.78,Mrs. Kimberly Clark,2024-07-14,5,5,4,554,554,Champions
+376,76,4,2833.18,Matthew Martin,2023-12-23,3,4,5,345,345,Loyal Customers
+377,298,2,446.23,Melinda Russell,2024-06-29,1,2,1,121,121,Lost
+378,96,2,1176.64,Sharon Arnold,2024-07-27,3,2,3,323,323,Lost
+379,105,6,2790.47,Thomas Fowler,2024-09-14,2,5,5,255,255,At Risk
+380,23,4,1614.78,David Davis,2024-04-14,4,4,4,444,444,Loyal Customers
+381,25,2,1130.48,Haley Gamble,2025-02-19,4,2,3,423,423,Lost
+382,57,2,147.03,Donna Webb,2024-02-23,3,2,1,321,321,Lost
+383,193,1,65.86,Johnathan Miller,2023-09-19,1,1,1,111,111,Lost
+384,48,2,321.31,Abigail Stephenson,2023-08-28,3,2,1,321,321,Lost
+385,43,4,747.42,Alex Moore,2023-12-06,4,4,2,442,442,Lost
+386,24,1,132.12,Christina Mccarthy,2025-03-01,4,1,1,411,411,New Customers
+387,215,4,1581.62,Joseph Graves,2024-05-19,1,4,4,144,144,About to Sleep
+388,2,3,1194.32,Ashlee Lopez,2025-03-18,5,3,3,533,533,Potential Loyalists
+389,39,3,1662.37,Patrick Martinez,2025-03-21,4,3,4,434,434,Lost
+390,2,4,3639.61,Sarah Castro,2025-01-24,5,4,5,545,545,Champions
+391,28,1,78.68,Joseph Palmer Jr.,2023-12-22,4,1,1,411,411,New Customers
+392,2,3,553.27,Danny Ferguson,2025-05-29,5,3,1,531,531,Potential Loyalists
+393,52,3,2794.54,Alexandra Kelly,2023-09-25,3,3,5,335,335,Loyal Customers
+394,37,2,1353.25,Jon Stevens,2024-11-19,4,2,3,423,423,Lost
+395,67,2,838.62,Paul Smith,2024-01-19,3,2,2,322,322,Hibernating
+396,4,2,1132.04,David Stephens,2024-01-04,5,2,3,523,523,Promising
+397,91,1,690.54,Melinda Mcdaniel,2023-10-19,3,1,2,312,312,Lost
+398,195,1,489.23,Steven Mcdaniel,2023-10-19,1,1,1,111,111,Lost
+399,9,2,1628.21,Francisco Coleman,2024-12-27,5,2,4,524,524,Promising
+400,13,3,1219.52,Colleen Miller,2024-11-25,5,3,3,533,533,Potential Loyalists
+401,90,4,1007.31,Jessica Brown,2024-06-28,3,4,2,342,342,Lost
+402,16,1,266.54,Julie Sharp,2025-05-20,5,1,1,511,511,New Customers
+403,434,2,575.8,Vanessa Martinez,2023-08-27,1,2,2,122,122,Hibernating
+404,226,2,307.69,Larry Bradford,2023-07-12,1,2,1,121,121,Lost
+405,8,3,1572.53,Tony Smith,2025-03-17,5,3,4,534,534,Lost
+406,110,7,3269.13,Nathan Wilkerson,2023-08-19,2,5,5,255,255,At Risk
+407,520,2,577.61,Randall Collins,2023-07-07,1,2,2,122,122,Hibernating
+408,359,1,882.15,Jennifer Vincent,2023-11-19,1,1,2,112,112,Lost
+409,49,2,667.74,Maureen Bailey,2023-12-29,3,2,2,322,322,Hibernating
+410,13,4,3444.01,Christopher Harrison,2024-05-03,5,4,5,545,545,Champions
+411,31,1,56.77,Daniel Orozco,2024-10-06,4,1,1,411,411,New Customers
+412,3,4,1827.03,Morgan Bryan,2025-05-19,5,4,4,544,544,Champions
+413,62,2,767.28,Alexis Cervantes,2023-10-05,3,2,2,322,322,Hibernating
+414,60,4,3004.28,Dustin Keller,2023-11-18,3,4,5,345,345,Loyal Customers
+415,15,2,2391.86,James Gonzalez,2024-08-20,5,2,4,524,524,Promising
+416,43,1,208.62,Tyler Haney,2025-01-02,4,1,1,411,411,New Customers
+417,199,1,318.63,Lori Green,2024-02-25,1,1,1,111,111,Lost
+418,90,2,719.18,Steven Phillips,2024-06-04,3,2,2,322,322,Hibernating
+419,107,2,464.91,Ryan Myers,2024-08-20,2,2,1,221,221,Hibernating
+420,240,2,368.06,Joseph Scott,2024-09-27,1,2,1,121,121,Lost
+421,180,2,1984.09,Robert Graham,2024-09-06,2,2,4,224,224,At Risk
+422,231,2,1390.81,Jessica Bradley,2024-02-25,1,2,3,123,123,Hibernating
+423,141,2,2529.4,Matthew Watson,2024-12-12,2,2,5,225,225,At Risk
+424,32,2,1233.68,Francisco Gonzalez,2025-04-05,4,2,3,423,423,Lost
+425,39,3,802.68,Ryan Powell,2025-02-18,4,3,2,432,432,Lost
+426,364,5,3238.37,Barbara Brooks,2023-07-14,1,5,5,155,155,About to Sleep
+427,61,2,638.03,Dennis Watts,2024-12-24,3,2,2,322,322,Hibernating
+428,207,1,743.04,Mr. Ralph Dawson,2024-06-28,1,1,2,112,112,Lost
+429,18,4,1654.95,Paige Collins,2024-09-24,4,4,4,444,444,Loyal Customers
+430,14,4,1519.01,Shawn Mcgee,2024-06-14,5,4,3,543,543,Loyal Customers
+431,122,2,306.4,Dominic Davis,2024-08-02,2,2,1,221,221,Hibernating
+432,328,1,1137.39,Joseph Hill,2023-10-08,1,1,3,113,113,About to Sleep
+433,31,2,951.25,Jesse Rivers,2024-06-26,4,2,2,422,422,New Customers
+434,2,2,185.43,Charles Davis,2025-05-24,5,2,1,521,521,Promising
+435,127,2,666.96,Mary Thomas,2024-04-09,2,2,2,222,222,Hibernating
+436,52,6,2631.17,Ellen Williams DDS,2023-06-20,3,5,5,355,355,Loyal Customers
+437,111,1,1513.78,Douglas Watkins,2023-12-07,2,1,3,213,213,Hibernating
+438,14,4,1934.98,Jasmine Ross,2023-10-21,5,4,4,544,544,Champions
+439,52,2,239.09,Sandra Davis,2024-08-06,3,2,1,321,321,Lost
+440,60,2,1350.13,Marc Yoder,2024-11-14,3,2,3,323,323,Lost
+441,226,3,2230.17,Kelli Hart,2024-05-20,1,3,4,134,134,At Risk
+442,318,1,116.36,Jill Brown,2023-10-11,1,1,1,111,111,Lost
+443,47,2,1506.92,Kimberly Alvarez,2025-04-02,3,2,3,323,323,Lost
+444,368,1,1001.38,Charles Khan,2024-05-27,1,1,2,112,112,Lost
+445,5,3,1018.32,Lisa White,2025-01-10,5,3,2,532,532,Potential Loyalists
+446,226,4,1363.19,Spencer Chandler,2023-09-14,1,4,3,143,143,At Risk
+447,94,2,365.01,Kristie Gonzalez,2024-07-28,3,2,1,321,321,Lost
+448,316,1,370.8,Gina Fleming,2023-07-16,1,1,1,111,111,Lost
+449,35,2,1033.22,Alison Nicholson,2023-06-30,4,2,3,423,423,Lost
+450,5,7,6241.56,Dean Cook,2024-06-06,5,5,5,555,555,Champions
+451,554,1,508.86,Gregory Woods,2023-09-03,1,1,1,111,111,Lost
+452,373,1,318.1,Stephanie Bell,2023-07-10,1,1,1,111,111,Lost
+453,124,4,2599.43,Matthew Sanchez,2023-12-04,2,4,5,245,245,At Risk
+454,480,1,1616.26,Emma Weaver,2023-06-24,1,1,4,114,114,About to Sleep
+455,5,3,465.56,Debra Chapman,2025-04-04,5,3,1,531,531,Potential Loyalists
+456,9,4,2375.39,Gabrielle Clayton,2025-04-02,5,4,4,544,544,Champions
+457,312,2,337.34,Michael Hill,2024-05-14,1,2,1,121,121,Lost
+458,56,7,2543.57,Karen Richard,2023-11-26,3,5,5,355,355,Loyal Customers
+459,110,1,968.77,Cathy Hunter,2023-11-05,2,1,2,212,212,Hibernating
+460,259,3,1477.95,Sandra Becker,2023-06-27,1,3,3,133,133,Lost
+461,98,2,2715.18,Rhonda Dixon,2024-01-09,2,2,5,225,225,At Risk
+462,264,1,1140.4,David Saunders,2024-07-29,1,1,3,113,113,About to Sleep
+463,372,1,1162.1,Beth Medina,2024-04-10,1,1,3,113,113,About to Sleep
+464,5,2,906.23,Michelle Harrison,2025-03-26,5,2,2,522,522,Promising
+465,7,3,2540.27,Leslie Jensen,2024-11-18,5,3,5,535,535,Lost
+466,97,2,921.14,Raymond Hall,2023-12-26,3,2,2,322,322,Hibernating
+467,35,2,484.1,Stephen Roberts,2023-11-04,4,2,1,421,421,New Customers
+468,31,2,1876.3,Laura Dennis,2024-05-05,4,2,4,424,424,Promising
+469,322,1,486.9,Megan Jones,2024-06-06,1,1,1,111,111,Lost
+470,26,4,2071.42,Mark Davis,2025-01-11,4,4,4,444,444,Loyal Customers
+471,164,3,1119.34,Howard Castillo,2023-11-13,2,3,3,233,233,Lost
+472,337,2,131.58,Jennifer Hart,2023-08-28,1,2,1,121,121,Lost
+473,37,2,1019.59,Lisa Anderson,2025-01-14,4,2,2,422,422,New Customers
+474,23,2,244.14,Erin Lewis,2025-03-10,4,2,1,421,421,New Customers
+475,75,2,313.72,Angela Wagner,2024-08-03,3,2,1,321,321,Lost
+476,118,6,4123.33,Jeffrey Walker,2024-05-22,2,5,5,255,255,At Risk
+477,45,4,1013.96,Eric Thomas,2024-02-10,3,4,2,342,342,Lost
+478,153,2,405.45,Frank Cunningham,2024-12-13,2,2,1,221,221,Hibernating
+479,74,2,1598.9,Paul Martin,2024-01-07,3,2,4,324,324,Lost
+480,58,6,2148.14,Rebekah Crane,2024-11-02,3,5,4,354,354,Loyal Customers
+481,5,4,1681.95,Brandon Ellis,2024-07-23,5,4,4,544,544,Champions
+482,1,4,1317.35,Christina Watkins,2025-06-01,5,4,3,543,543,Loyal Customers
+483,162,3,1452.2,Robert Thomas,2024-05-20,2,3,3,233,233,Lost
+484,156,1,702.96,Joseph Schmidt,2024-04-14,2,1,2,212,212,Hibernating
+485,113,4,3319.23,Sherri Knapp,2024-08-25,2,4,5,245,245,At Risk
+486,155,4,2318.85,Donald Mendoza,2023-08-08,2,4,4,244,244,At Risk
+487,189,2,1620.39,Barbara Ramos,2023-10-28,1,2,4,124,124,At Risk
+488,318,4,2882.28,Brittany Adams,2023-08-11,1,4,5,145,145,At Risk
+489,25,2,735.93,Mark Smith,2025-03-15,4,2,2,422,422,New Customers
+490,21,2,2018.81,Edward Wolfe,2024-07-16,4,2,4,424,424,Promising
+491,9,4,1310.88,Debra Palmer,2023-10-03,5,4,3,543,543,Loyal Customers
+492,140,3,1580.88,George Leach,2024-02-10,2,3,4,234,234,At Risk
+493,76,2,2031.24,Elizabeth Arellano,2024-10-05,3,2,4,324,324,Lost
+494,8,7,1785.14,Amy Davis,2024-03-08,5,5,4,554,554,Champions
+495,187,3,2295.95,Gregory Ruiz,2023-11-18,1,3,4,134,134,At Risk
+496,32,3,656.15,Patricia Wood,2025-01-29,4,3,2,432,432,Lost
+497,36,2,599.23,Tyler Fisher,2024-12-23,4,2,2,422,422,New Customers
+498,6,2,1896.17,David Walters,2025-03-07,5,2,4,524,524,Promising
+499,59,2,126.78,John Williams,2024-11-25,3,2,1,321,321,Lost
+500,52,1,308.66,Jennifer Thompson,2025-04-16,3,1,1,311,311,New Customers
+501,32,7,3777.64,Jenny Johnson,2024-12-05,4,5,5,455,455,Champions
+502,294,2,211.66,Destiny Powers,2023-07-25,1,2,1,121,121,Lost
+503,144,2,1926.99,Michael Wilcox,2024-09-12,2,2,4,224,224,At Risk
+504,202,3,1175.3,Haley Clark,2024-03-11,1,3,3,133,133,Lost
+505,50,4,2182.96,Becky Foster,2024-07-04,3,4,4,344,344,Loyal Customers
+506,289,2,696.14,Scott Simpson,2023-11-19,1,2,2,122,122,Hibernating
+507,277,3,1053.5,Kathy Miller,2024-05-19,1,3,3,133,133,Lost
+508,1,4,1433.34,Christina Anderson,2025-06-05,5,4,3,543,543,Loyal Customers
+509,5,3,599.81,Andrea Butler,2025-01-07,5,3,2,532,532,Potential Loyalists
+510,6,2,1030.01,Holly Douglas,2024-06-24,5,2,3,523,523,Promising
+511,35,4,1699.89,Spencer Elliott,2024-11-17,4,4,4,444,444,Loyal Customers
+512,228,1,130.81,Whitney Sullivan,2024-08-26,1,1,1,111,111,Lost
+513,28,3,274.41,Barbara Gonzalez,2023-12-13,4,4,1,441,441,Lost
+514,57,2,2743.35,Melissa Curtis,2024-08-06,3,2,5,325,325,Lost
+515,53,1,264.6,Joshua Harrington,2025-03-18,3,1,1,311,311,New Customers
+516,61,1,34.32,Chloe Shaffer,2024-09-08,3,1,1,311,311,New Customers
+517,49,4,1111.64,Peter White,2024-06-30,3,4,3,343,343,Need Attention
+518,175,4,3007.19,Eric Lynch,2023-09-22,2,4,5,245,245,At Risk
+519,39,7,5253.22,Hector Mcgee,2024-07-20,4,5,5,455,455,Champions
+520,162,1,584.88,Rebecca Williamson,2024-02-14,2,1,2,212,212,Hibernating
+521,193,1,1128.52,Jessica Mitchell,2024-11-10,1,1,3,113,113,About to Sleep
+522,22,4,2345.59,Scott Stein,2025-04-06,4,4,4,444,444,Loyal Customers
+523,662,1,978.62,Alexis Kim,2023-08-01,1,1,2,112,112,Lost
+524,96,4,1570.35,Sabrina Owens,2023-12-15,3,4,4,344,344,Loyal Customers
+525,3,3,2524.96,Michael Nguyen,2025-04-17,5,4,4,544,544,Champions
+526,49,2,1022.8,Christina Martin,2025-01-24,3,2,3,323,323,Lost
+527,8,1,60.16,Christopher Gentry,2025-05-11,5,1,1,511,511,New Customers
+528,5,3,404.33,Isaac Collins,2024-05-17,5,4,1,541,541,Potential Loyalists
+529,29,6,2752.83,Kyle Clark,2024-09-05,4,5,5,455,455,Champions
+530,357,2,587.81,Alexander Johnson,2024-05-13,1,2,2,122,122,Hibernating
+531,158,3,1266.79,Steven Alexander,2023-11-20,2,4,3,243,243,At Risk
+532,172,5,1612.35,Brandon Powell,2023-09-21,2,5,4,254,254,At Risk
+533,16,6,1172.24,Robert Martin,2024-02-10,5,5,3,553,553,Potential Loyalists
+534,17,1,86.06,Dawn Roman,2024-07-15,5,1,1,511,511,New Customers
+535,23,2,764.15,Shane Parker,2024-03-08,4,2,2,422,422,New Customers
+536,634,1,460.22,Christopher Walters,2023-08-02,1,1,1,111,111,Lost
+537,36,2,657.28,Mary Clark,2023-09-27,4,2,2,422,422,New Customers
+538,10,4,5198.22,Michael Hodges,2025-05-03,5,4,5,545,545,Champions
+539,110,7,2687.33,Ryan Scott,2024-11-25,2,5,5,255,255,At Risk
+540,10,7,2069.49,Margaret Murphy,2023-08-17,5,5,4,554,554,Champions
+541,97,3,623.84,Cynthia Carpenter,2023-08-20,3,4,2,342,342,Lost
+542,38,3,1197.29,Rebecca Daniel,2024-09-01,4,4,3,443,443,Lost
+543,5,2,1219.48,Sara Perez,2024-11-01,5,2,3,523,523,Promising
+544,41,3,1656.8,Nicole Medina,2024-07-29,4,4,4,444,444,Loyal Customers
+545,1,4,2653.39,Zachary Ramos,2025-02-10,5,4,5,545,545,Champions
+546,7,7,3333.45,Juan Carroll,2024-08-05,5,5,5,555,555,Champions
+547,125,2,866.83,Thomas Duke,2024-07-22,2,2,2,222,222,Hibernating
+548,23,2,600.09,Amy Bailey,2025-04-30,4,2,2,422,422,New Customers
+549,15,4,1229.85,Joshua Maldonado,2023-08-16,5,4,3,543,543,Loyal Customers
+550,181,3,2451.21,Michael Jennings,2023-12-14,2,4,4,244,244,At Risk
+551,261,1,839.52,Amy Hawkins,2023-08-18,1,1,2,112,112,Lost
+552,9,3,607.07,Brittney Brooks,2025-04-11,5,4,2,542,542,Potential Loyalists
+553,52,3,1115.6,Tanya Kelley,2024-11-07,3,4,3,343,343,Need Attention
+554,71,2,1645.03,Annette Meyer,2024-06-01,3,2,4,324,324,Lost
+555,215,4,3107.21,Frank Webb MD,2023-07-17,1,4,5,145,145,At Risk
+556,75,2,650.53,Shelly Rodgers,2023-06-12,3,2,2,322,322,Hibernating
+557,5,4,3211.59,Robert Guerra,2025-02-13,5,4,5,545,545,Champions
+558,246,1,1024.48,Richard King,2023-12-17,1,1,3,113,113,About to Sleep
+559,53,1,275.4,Jennifer Blackwell,2023-12-02,3,1,1,311,311,New Customers
+560,162,3,569.17,Jessica Thomas,2023-10-21,2,4,1,241,241,Hibernating
+561,339,1,396.45,Matthew Gonzales,2023-11-26,1,1,1,111,111,Lost
+562,108,4,1615.12,Justin Cervantes,2024-02-16,2,4,4,244,244,At Risk
+563,36,2,1509.11,Jordan Calhoun MD,2025-03-15,4,2,3,423,423,Lost
+564,111,3,869.2,Jesse Farley,2023-08-27,2,4,2,242,242,At Risk
+565,300,1,197.44,Elizabeth Wall,2023-09-30,1,1,1,111,111,Lost
+566,26,5,2356.83,Richard Gonzalez,2024-01-24,4,5,4,454,454,Champions
+567,3,4,3210.54,Christina Hernandez,2024-11-01,5,4,5,545,545,Champions
+568,5,6,1288.8,Ryan Wright,2025-04-30,5,5,3,553,553,Potential Loyalists
+569,245,5,4788.89,Stacey Huerta,2023-12-30,1,5,5,155,155,About to Sleep
+570,12,6,2976.08,Sydney Burns,2024-03-18,5,5,5,555,555,Champions
+571,60,4,794.29,Debra Brooks,2023-08-02,3,4,2,342,342,Lost
+572,189,4,1374.53,Christian Solis,2023-06-11,1,4,3,143,143,At Risk
+573,21,2,890.67,Crystal Williams,2024-08-02,4,2,2,422,422,New Customers
+574,28,4,4069.41,Caleb Gill,2024-09-29,4,4,5,445,445,Champions
+575,211,4,1852.62,Darlene Webster,2024-02-25,1,4,4,144,144,About to Sleep
+576,33,2,473.67,Jacqueline Evans,2024-12-08,4,2,1,421,421,New Customers
+577,19,3,3351.9,Alexander Taylor,2024-06-06,4,4,5,445,445,Champions
+578,115,6,5799.72,Ronald Nash,2023-06-18,2,5,5,255,255,At Risk
+579,22,3,3629.66,Christopher Mccoy,2025-04-08,4,4,5,445,445,Champions
+580,79,3,1641.36,Rachel Peters,2024-06-29,3,4,4,344,344,Loyal Customers
+581,32,3,2533.56,Steven Valentine,2025-03-15,4,4,5,445,445,Champions
+582,131,2,835.41,Robert Lopez,2024-09-08,2,2,2,222,222,Hibernating
+583,3,4,1277.05,Linda Blake,2024-07-15,5,4,3,543,543,Loyal Customers
+584,65,2,950.6,Maria Foster,2024-12-11,3,2,2,322,322,Hibernating
+585,41,2,601.18,Gina Gutierrez,2024-12-14,4,2,2,422,422,New Customers
+586,45,6,1545.36,Tiffany Taylor,2024-06-15,3,5,3,353,353,Need Attention
+587,109,3,1703.45,Jennifer Hernandez,2024-08-23,2,4,4,244,244,At Risk
+588,482,1,144.67,Kayla Sullivan,2023-11-06,1,1,1,111,111,Lost
+589,163,2,905.6,Jasmine Murphy,2023-08-19,2,2,2,222,222,Hibernating
+590,110,3,944.22,Matthew Maddox,2024-07-20,2,4,2,242,242,At Risk
+591,113,2,828.33,Michael Castillo,2025-01-15,2,2,2,222,222,Hibernating
+592,182,2,2143.37,Dillon Wiggins,2024-03-07,2,2,4,224,224,At Risk
+593,88,3,1160.72,Molly Fernandez,2024-02-07,3,4,3,343,343,Need Attention
+594,259,1,1550.24,John Molina,2024-08-02,1,1,3,113,113,About to Sleep
+595,117,1,46.16,Joshua Dunlap,2025-02-07,2,1,1,211,211,Hibernating
+596,3,4,1751.58,Chelsea Smith,2025-04-29,5,4,4,544,544,Champions
+597,43,1,537.32,Alexandra Harper,2024-10-24,4,1,1,411,411,New Customers
+598,27,2,439.81,Heather Mata,2024-08-30,4,2,1,421,421,New Customers
+599,137,4,2724.45,Michael Watkins,2023-07-08,2,5,5,255,255,At Risk
+600,176,2,994.68,Jessica Mcdaniel,2024-07-24,2,2,2,222,222,Hibernating
+601,36,2,864.14,Jacob Hale,2023-09-05,4,2,2,422,422,New Customers
+602,42,3,1368.81,Kelly Ortega,2024-11-02,4,4,3,443,443,Lost
+603,59,4,1469.49,Anthony French,2024-09-14,3,5,3,353,353,Need Attention
+604,246,2,1086.35,Regina Thomas,2024-05-02,1,2,3,123,123,Hibernating
+605,87,2,1965.75,Courtney Solomon,2024-09-26,3,2,4,324,324,Lost
+606,33,4,2043.68,Mrs. Sara Jacobs,2024-06-18,4,5,4,454,454,Champions
+607,57,2,2088.06,Taylor Solomon,2024-11-19,3,2,4,324,324,Lost
+608,142,4,4765.62,Margaret Harris,2024-05-06,2,5,5,255,255,At Risk
+609,401,1,1146.38,Lauren Hill DDS,2023-09-10,1,1,3,113,113,About to Sleep
+610,138,2,1186.25,Patrick Henderson,2024-01-26,2,2,3,223,223,Lost
+611,14,4,1666.15,Robert Bryan,2023-12-30,5,5,4,554,554,Champions
+612,168,2,104.27,Michael Graham,2024-01-30,2,2,1,221,221,Hibernating
+613,17,4,2981.93,Mr. Ryan Obrien MD,2024-10-22,5,5,5,555,555,Champions
+614,132,3,1338.31,Maria Brown,2023-10-02,2,4,3,243,243,At Risk
+615,30,7,3000.11,Kevin Holmes,2023-12-29,4,5,5,455,455,Champions
+616,108,2,1502.53,Crystal Collins,2023-09-07,2,2,3,223,223,Lost
+617,12,2,2988.3,Philip Cummings,2023-12-05,5,2,5,525,525,Promising
+618,49,6,1303.02,Brian Wright,2025-01-17,3,5,3,353,353,Need Attention
+619,6,2,2290.51,Kyle Richardson,2025-03-30,5,2,4,524,524,Promising
+620,38,3,1057.78,James Marquez,2024-05-22,4,4,3,443,443,Lost
+621,33,1,137.79,Sheila Mendoza,2024-09-05,4,1,1,411,411,New Customers
+622,137,6,2385.5,Anthony Black,2023-07-11,2,5,4,254,254,At Risk
+623,26,2,854.31,Casey Barnes,2024-11-22,4,2,2,422,422,New Customers
+624,1,2,1385.43,John Huber,2025-01-31,5,2,3,523,523,Promising
+625,59,2,3276.36,Sarah Robinson,2024-03-31,3,2,5,325,325,Lost
+626,135,4,1312.19,Jason Good,2023-08-08,2,5,3,253,253,At Risk
+627,188,2,1806.09,Brittany Patterson,2023-08-08,1,2,4,124,124,At Risk
+628,106,3,1130.75,Aaron Nielsen,2024-09-21,2,4,3,243,243,At Risk
+629,17,2,805.08,Anne Obrien,2025-03-09,5,2,2,522,522,Promising
+630,549,2,467.84,Zachary Martinez,2023-07-27,1,2,1,121,121,Lost
+631,10,5,2551.54,Samuel King,2023-07-09,5,5,5,555,555,Champions
+632,6,4,2226.8,Jose Simpson,2025-04-16,5,5,4,554,554,Champions
+633,17,2,594.85,Randy Simon,2025-02-20,5,2,2,522,522,Promising
+634,62,2,682.75,Mary Riley,2024-08-20,3,2,2,322,322,Hibernating
+635,159,2,1083.73,William Lewis,2024-04-07,2,2,3,223,223,Lost
+636,27,3,1806.97,Christina Martin,2024-06-16,4,4,4,444,444,Loyal Customers
+637,213,4,1210.66,Mr. Richard Kelly,2024-02-12,1,5,3,153,153,At Risk
+638,4,2,1427.39,Peter Garcia,2025-05-30,5,2,3,523,523,Promising
+639,157,1,734.86,Mariah Perry,2024-01-23,2,1,2,212,212,Hibernating
+640,217,2,614.46,Elaine Trevino,2023-10-22,1,2,2,122,122,Hibernating
+641,18,2,489.12,Chad Warren,2025-04-19,4,2,1,421,421,New Customers
+642,28,6,3058.12,Shawn Davis,2023-08-07,4,5,5,455,455,Champions
+643,30,2,1923.43,Matthew Carroll,2025-02-01,4,2,4,424,424,Promising
+644,43,2,359.15,Chad Beltran,2025-01-24,4,2,1,421,421,New Customers
+645,44,4,835.2,Tracy Wright,2024-09-24,3,5,2,352,352,Lost
+646,52,3,2478.4,Jacob Rowland,2024-12-07,3,4,4,344,344,Loyal Customers
+647,68,2,361.51,Christina Rodriguez,2023-06-21,3,2,1,321,321,Lost
+648,472,3,2784.61,John Robinson,2023-06-11,1,4,5,145,145,At Risk
+649,4,2,320.56,Erin Norris,2024-02-01,5,2,1,521,521,Promising
+650,370,1,262.38,Heather Blake,2023-11-12,1,1,1,111,111,Lost
+651,24,7,2865.7,Andrew Smith,2024-10-01,4,5,5,455,455,Champions
+652,97,4,2851.06,Abigail Wilkinson,2024-07-30,3,5,5,355,355,Loyal Customers
+653,89,5,3643.22,Cheryl Short,2024-09-09,3,5,5,355,355,Loyal Customers
+654,51,4,2478.37,Elizabeth Mcdaniel,2025-01-23,3,5,4,354,354,Loyal Customers
+655,5,2,473.64,Joseph Peters,2025-04-16,5,2,1,521,521,Promising
+656,308,1,169.22,Ashley Neal,2024-07-10,1,1,1,111,111,Lost
+657,19,4,2595.94,Joshua Miller,2024-11-29,4,5,5,455,455,Champions
+658,107,5,3790.93,Christopher Hill,2023-09-26,2,5,5,255,255,At Risk
+659,22,2,1236.37,James Wilson,2024-09-05,4,2,3,423,423,Lost
+660,227,2,1665.88,James Williams,2024-04-05,1,2,4,124,124,At Risk
+661,44,7,1772.28,Kayla Ewing,2024-09-07,3,5,4,354,354,Loyal Customers
+662,78,7,3151.97,Teresa Middleton,2023-10-28,3,5,5,355,355,Loyal Customers
+663,150,1,175.46,Chelsea Holland,2024-12-12,2,1,1,211,211,Hibernating
+664,28,2,572.23,Nathan Kirk,2024-10-14,4,2,1,421,421,New Customers
+665,165,2,1133.12,Michael Carter,2024-08-27,2,2,3,223,223,Lost
+666,316,2,90.65,Megan Morgan,2023-08-13,1,2,1,121,121,Lost
+667,13,3,1513.76,Jordan Owens,2025-04-10,5,4,3,543,543,Loyal Customers
+668,110,2,206.01,Kathy Chang,2024-09-16,2,2,1,221,221,Hibernating
+669,38,2,966.68,Nicholas Morrow MD,2023-11-25,4,2,2,422,422,New Customers
+670,270,1,42.5,Grace Johnson,2024-06-22,1,1,1,111,111,Lost
+671,112,4,1695.25,Paul Gallegos,2023-06-28,2,5,4,254,254,At Risk
+672,10,2,1538.75,Jesus Flores,2025-02-05,5,2,3,523,523,Promising
+673,7,2,1815.13,Victor Wilson,2025-01-30,5,2,4,524,524,Promising
+674,24,4,2033.64,Wendy Carpenter,2025-03-19,4,5,4,454,454,Champions
+675,40,1,62.02,Joseph Diaz,2025-01-18,4,1,1,411,411,New Customers
+676,13,2,1904.3,Richard Parsons,2025-04-02,5,2,4,524,524,Promising
+677,38,2,866.66,Stephanie Meyer,2024-03-14,4,2,2,422,422,New Customers
+678,42,2,522.37,Jason Jones,2025-01-11,4,2,1,421,421,New Customers
+679,226,3,956.57,Jordan Garrett,2023-07-14,1,4,2,142,142,At Risk
+680,147,4,3461.14,Joseph Salazar,2023-10-05,2,5,5,255,255,At Risk
+681,55,3,1389.71,Joann Taylor,2023-07-27,3,4,3,343,343,Need Attention
+682,99,3,1443.72,Alison Zuniga,2023-08-22,2,4,3,243,243,At Risk
+683,451,1,262.98,April Rodriguez,2024-01-31,1,1,1,111,111,Lost
+684,266,4,3029.12,James Dixon,2023-08-02,1,5,5,155,155,About to Sleep
+685,59,4,1004.13,Margaret Humphrey,2024-12-08,3,5,2,352,352,Lost
+686,106,3,1329.27,Allison Floyd,2024-02-03,2,4,3,243,243,At Risk
+687,192,3,205.0,Willie Shelton,2024-08-13,1,4,1,141,141,Lost
+688,112,5,2814.56,Debra Jordan,2024-08-27,2,5,5,255,255,At Risk
+689,173,4,295.8,Andrea Miller,2023-07-25,2,5,1,251,251,Lost
+690,281,1,28.21,Valerie Simpson,2024-06-26,1,1,1,111,111,Lost
+691,67,2,690.6,Cody Garrett,2024-03-22,3,2,2,322,322,Hibernating
+692,35,3,557.91,Christina Gomez,2025-04-08,4,4,1,441,441,Lost
+693,134,3,335.28,Philip Bowen,2023-08-25,2,4,1,241,241,Hibernating
+694,67,2,1658.32,Jaclyn Johnson,2023-11-01,3,2,4,324,324,Lost
+695,81,5,4314.28,Felicia Young,2023-11-30,3,5,5,355,355,Loyal Customers
+696,29,6,4714.48,Samuel Williams,2023-11-27,4,5,5,455,455,Champions
+697,47,6,3034.79,Kristin Wang,2024-11-06,3,5,5,355,355,Loyal Customers
+698,100,4,1897.98,Victoria Barry,2023-07-10,2,5,4,254,254,At Risk
+699,169,2,816.66,Jacqueline Hall,2023-08-21,2,2,2,222,222,Hibernating
+700,154,2,249.93,Samuel Warren,2023-11-15,2,2,1,221,221,Hibernating
+701,111,4,1484.38,Michelle Morton,2023-10-04,2,5,3,253,253,At Risk
+702,5,2,715.07,Julie Johnson,2025-04-27,5,2,2,522,522,Promising
+703,34,2,233.81,Luke Dixon,2025-01-04,4,2,1,421,421,New Customers
+704,85,3,3522.77,Tammy Rios,2024-09-19,3,4,5,345,345,Loyal Customers
+705,126,2,1236.82,Juan Young,2023-12-06,2,2,3,223,223,Lost
+706,24,2,2162.51,Gary Grimes,2025-03-28,4,2,4,424,424,Promising
+707,305,2,3437.97,Joseph Jimenez,2023-10-24,1,2,5,125,125,At Risk
+708,396,1,249.2,Andrew Juarez,2023-11-28,1,1,1,111,111,Lost
+709,15,2,835.31,Bradley Armstrong,2025-03-04,5,2,2,522,522,Promising
+710,63,2,419.78,Amy Morrow,2024-05-15,3,3,1,331,331,Lost
+711,97,2,1314.67,Amy Obrien,2023-07-06,3,3,3,333,333,Need Attention
+712,57,3,285.33,Jessica Rogers,2024-08-17,3,4,1,341,341,Lost
+713,86,5,1941.54,Alan Morrow,2024-07-14,3,5,4,354,354,Loyal Customers
+714,91,3,559.31,Jasmine Farmer,2024-11-15,3,4,1,341,341,Lost
+715,26,7,3558.01,Jessica Atkins,2024-04-13,4,5,5,455,455,Champions
+716,135,3,1074.78,Lisa Wood,2023-11-24,2,4,3,243,243,At Risk
+717,562,2,839.29,Donald Harding,2023-10-29,1,3,2,132,132,Hibernating
+718,127,6,2631.82,Jesse Wright,2023-10-19,2,5,5,255,255,At Risk
+719,178,2,1082.68,Kelsey Kelly,2024-02-22,2,3,3,233,233,Lost
+720,155,1,781.86,David Taylor,2023-11-28,2,1,2,212,212,Hibernating
+721,227,2,668.01,Kristen Hoover,2024-05-12,1,3,2,132,132,Hibernating
+722,113,2,1545.5,Bryan Perry,2024-10-24,2,3,3,233,233,Lost
+723,28,1,183.56,Leslie Roberts,2024-10-07,4,1,1,411,411,New Customers
+724,21,2,1168.54,Robert Burton,2025-02-09,4,3,3,433,433,Lost
+725,380,1,254.58,Laurie Roberts,2023-07-24,1,1,1,111,111,Lost
+726,40,4,2519.38,Joshua Barnes,2024-08-04,4,5,4,454,454,Champions
+727,259,3,1902.21,Dr. Karen Reid MD,2023-11-19,1,4,4,144,144,About to Sleep
+728,575,2,678.27,Heather Maxwell,2023-07-26,1,3,2,132,132,Hibernating
+729,131,2,1775.02,Justin Garcia,2024-05-24,2,3,4,234,234,At Risk
+730,3,2,2311.64,Nicole Wallace DDS,2025-05-26,5,3,4,534,534,Lost
+731,120,4,2545.97,David Hawkins,2024-01-06,2,5,5,255,255,At Risk
+732,133,3,2660.67,Keith Morales,2023-12-24,2,4,5,245,245,At Risk
+733,70,2,725.9,Jason Abbott,2024-07-27,3,3,2,332,332,Hibernating
+734,57,4,1560.69,Sharon Murphy,2025-02-06,3,5,3,353,353,Need Attention
+735,7,1,309.24,Patricia Aguirre,2025-05-19,5,1,1,511,511,New Customers
+736,5,5,1071.09,Anthony Knapp,2024-04-13,5,5,3,553,553,Potential Loyalists
+737,261,3,2571.06,Peter Morgan,2023-08-27,1,4,5,145,145,At Risk
+738,201,1,445.46,Lindsey Reed,2023-07-28,1,1,1,111,111,Lost
+739,33,2,1059.83,Bob Campbell,2025-03-09,4,3,3,433,433,Lost
+740,182,2,801.12,Kyle David,2024-10-30,2,3,2,232,232,Lost
+741,154,4,862.84,Sharon Patel,2024-01-18,2,5,2,252,252,At Risk
+742,306,2,925.09,Matthew Morgan,2023-11-06,1,3,2,132,132,Hibernating
+743,27,5,2204.27,Maria Gregory,2024-11-12,4,5,4,454,454,Champions
+744,166,2,292.66,James Gamble,2024-02-16,2,3,1,231,231,Hibernating
+745,159,1,34.06,David Rangel,2024-07-05,2,1,1,211,211,Hibernating
+746,55,2,771.08,Kayla Scott,2025-01-21,3,3,2,332,332,Hibernating
+747,208,3,387.26,Victoria Fernandez,2024-07-14,1,4,1,141,141,Lost
+748,81,3,1276.75,Thomas Moore,2023-07-25,3,4,3,343,343,Need Attention
+749,19,4,2147.13,Julia Gray,2025-04-17,4,5,4,454,454,Champions
+750,3,5,2929.19,Margaret Miller,2025-04-28,5,5,5,555,555,Champions
+751,173,2,699.87,Leah Kim,2024-08-30,2,3,2,232,232,Lost
+752,321,2,742.7,Leslie Barton,2023-11-27,1,3,2,132,132,Hibernating
+753,8,4,3009.49,Justin Hurst,2025-04-28,5,5,5,555,555,Champions
+754,7,1,311.24,Stanley Gallagher,2025-05-19,5,1,1,511,511,New Customers
+755,7,5,3921.06,John Carter,2025-04-28,5,5,5,555,555,Champions
+756,87,4,2121.32,Kevin Cole,2024-06-06,3,5,4,354,354,Loyal Customers
+757,9,3,2669.18,Kenneth Hurley,2025-04-30,5,4,5,545,545,Champions
+758,37,3,1543.08,Catherine Barker,2023-10-17,4,4,3,443,443,Lost
+759,111,3,2409.96,Robert Zavala,2023-06-19,2,4,4,244,244,At Risk
+760,6,4,2830.98,Dawn Haynes,2025-05-08,5,5,5,555,555,Champions
+761,22,3,1098.19,Jennifer Oconnor,2025-03-22,4,4,3,443,443,Lost
+762,1,4,1673.9,Stephen Gibbs,2025-06-06,5,5,4,554,554,Champions
+763,54,4,1844.07,Tara Gordon,2024-03-01,3,5,4,354,354,Loyal Customers
+764,3,7,2299.12,Daniel White,2025-04-27,5,5,4,554,554,Champions
+765,350,2,825.88,Amy Park,2024-01-28,1,3,2,132,132,Hibernating
+766,69,4,1600.06,Scott Arias,2024-12-08,3,5,4,354,354,Loyal Customers
+767,165,2,204.0,Adam Long,2024-09-09,2,3,1,231,231,Hibernating
+768,123,2,1087.07,Tina Mooney,2024-09-21,2,3,3,233,233,Lost
+769,20,4,1348.9,Jeffrey Sloan,2024-12-14,4,5,3,453,453,Lost
+770,4,4,1729.93,Felicia Smith,2024-12-29,5,5,4,554,554,Champions
+771,327,3,3166.98,Daniel Rivera,2023-08-12,1,4,5,145,145,At Risk
+772,107,2,760.72,Daniel Taylor,2024-10-11,2,3,2,232,232,Lost
+773,8,2,1041.83,Rebecca Dyer,2024-12-09,5,3,3,533,533,Potential Loyalists
+774,27,6,3004.78,Colin Graves,2024-07-15,4,5,5,455,455,Champions
+775,21,3,1287.54,Kevin Edwards,2025-04-03,4,4,3,443,443,Lost
+776,8,5,2270.58,Christopher Hicks,2023-09-15,5,5,4,554,554,Champions
+777,35,4,3889.92,Amy Davis,2023-12-28,4,5,5,455,455,Champions
+778,84,3,777.39,Brittany Phelps,2024-11-12,3,4,2,342,342,Lost
+779,25,2,787.0,Taylor Gonzales,2025-05-07,4,3,2,432,432,Lost
+780,271,1,182.73,Tony Johnson,2024-03-31,1,1,1,111,111,Lost
+781,29,2,762.28,Tracy Butler,2024-03-21,4,3,2,432,432,Lost
+782,289,3,1933.64,Eric Carrillo,2023-09-17,1,4,4,144,144,About to Sleep
+783,41,2,123.37,Gwendolyn Pena,2025-03-18,4,3,1,431,431,Lost
+784,31,5,2959.03,Tonya Campbell,2025-03-01,4,5,5,455,455,Champions
+785,37,3,1764.65,Jeanette Norris,2023-08-05,4,4,4,444,444,Loyal Customers
+786,110,1,839.58,Jacob Nichols,2023-06-18,2,1,2,212,212,Hibernating
+787,103,2,1266.02,Desiree Allen,2024-07-27,2,3,3,233,233,Lost
+788,37,2,827.89,Randy Perez,2025-01-25,4,3,2,432,432,Lost
+789,81,3,2765.35,Nancy Thompson,2024-01-31,3,4,5,345,345,Loyal Customers
+790,68,4,1786.71,John Rodriguez,2023-09-10,3,5,4,354,354,Loyal Customers
+791,86,2,288.96,Francisco Bates,2024-11-08,3,3,1,331,331,Lost
+792,52,3,877.94,Jeanette Knox,2023-06-10,3,4,2,342,342,Lost
+793,165,4,868.05,John Steele,2024-06-12,2,5,2,252,252,At Risk
+794,188,4,1305.21,Scott James,2024-02-01,1,5,3,153,153,At Risk
+795,4,2,2959.97,Bonnie Clark,2023-07-20,5,3,5,535,535,Lost
+796,19,3,1464.15,Stephen Haney,2024-12-24,4,4,3,443,443,Lost
+797,10,2,2914.54,Erica Smith,2025-04-23,5,3,5,535,535,Lost
+798,74,2,451.75,Isabella Patterson,2023-12-11,3,3,1,331,331,Lost
+799,54,6,3258.61,Christopher Smith,2024-05-20,3,5,5,355,355,Loyal Customers
+800,11,2,1754.41,Jeffery Barry,2024-10-21,5,3,4,534,534,Lost
+801,1,2,1597.4,Melissa Parker,2025-06-04,5,3,4,534,534,Lost
+802,8,6,4068.48,Joy Dorsey,2025-04-13,5,5,5,555,555,Champions
+803,9,3,1120.6,Ann Velasquez,2025-05-21,5,4,3,543,543,Loyal Customers
+804,43,3,3233.9,Lisa Mccarty,2024-05-12,4,4,5,445,445,Champions
+805,169,2,2109.62,Jessica Young,2023-12-14,2,3,4,234,234,At Risk
+806,14,4,1237.45,Steven Salazar,2023-09-23,5,5,3,553,553,Potential Loyalists
+807,426,2,264.47,Garrett Fisher,2024-01-15,1,3,1,131,131,Lost
+808,68,3,2046.24,Hannah Mitchell,2024-08-28,3,4,4,344,344,Loyal Customers
+809,2,2,375.08,Samantha Thomas,2024-11-05,5,3,1,531,531,Potential Loyalists
+810,104,4,1067.05,Chelsea Dominguez,2024-01-21,2,5,3,253,253,At Risk
+811,193,1,55.48,Derek Clark,2024-10-05,1,1,1,111,111,Lost
+812,8,2,1877.6,Dr. Austin Baker,2024-02-10,5,3,4,534,534,Lost
+813,35,3,1022.07,Tammy Moore,2024-04-02,4,4,2,442,442,Lost
+814,27,2,176.88,Nicholas Martinez,2024-11-27,4,3,1,431,431,Lost
+815,115,6,1148.3,Deanna Freeman,2023-07-17,2,5,3,253,253,At Risk
+816,112,2,2167.42,Jeffrey Johns,2024-07-05,2,3,4,234,234,At Risk
+817,133,4,418.26,Brittany Byrd,2023-10-24,2,5,1,251,251,Lost
+818,112,2,1438.45,Teresa Bauer,2024-10-28,2,3,3,233,233,Lost
+819,20,4,3195.37,Tara George,2023-10-06,4,5,5,455,455,Champions
+820,60,2,682.65,Dylan Thomas,2023-06-17,3,3,2,332,332,Hibernating
+821,68,1,335.87,Robert Smith,2024-05-04,3,1,1,311,311,New Customers
+822,105,2,1536.58,Mr. Christopher Barr MD,2023-07-09,2,3,3,233,233,Lost
+823,1,2,720.17,Emily Ortega,2024-09-29,5,3,2,532,532,Potential Loyalists
+824,126,2,193.49,Amanda Nelson,2024-07-04,2,3,1,231,231,Hibernating
+825,20,4,4392.25,Elizabeth Smith PhD,2024-02-03,4,5,5,455,455,Champions
+826,120,2,996.17,Jasmine Morales,2023-06-21,2,3,2,232,232,Lost
+827,24,4,3256.94,Amber Martin,2024-11-27,4,5,5,455,455,Champions
+828,43,2,535.85,Daniel Reynolds,2024-09-12,4,3,1,431,431,Lost
+829,40,3,2442.36,Christopher Sanchez,2024-04-22,4,4,4,444,444,Loyal Customers
+830,2,4,3066.88,Darren Anthony,2025-05-20,5,5,5,555,555,Champions
+831,134,2,940.55,Matthew Moody,2024-03-16,2,3,2,232,232,Lost
+832,5,5,5416.14,Jenny Soto,2025-05-18,5,5,5,555,555,Champions
+833,128,2,1253.05,Samuel Day,2024-07-26,2,3,3,233,233,Lost
+834,568,2,1484.77,Gwendolyn Walker,2023-06-24,1,3,3,133,133,Lost
+835,10,4,2951.33,Richard Ellis,2025-04-28,5,5,5,555,555,Champions
+836,464,3,2071.05,James Perkins,2023-10-06,1,4,4,144,144,About to Sleep
+837,59,4,3654.74,Jimmy Sanders,2023-11-29,3,5,5,355,355,Loyal Customers
+838,132,2,1227.48,Kara Whitaker,2023-11-04,2,3,3,233,233,Lost
+839,227,3,602.29,Tiffany Hughes,2023-08-30,1,4,2,142,142,At Risk
+840,34,4,2667.71,Jessica Oneal,2025-01-04,4,5,5,455,455,Champions
+841,141,3,1004.3,Franklin Cooper,2024-01-05,2,4,2,242,242,At Risk
+842,48,4,3040.81,Jacqueline Walker,2024-12-01,3,5,5,355,355,Loyal Customers
+843,136,3,3014.48,Matthew Potts,2023-10-11,2,4,5,245,245,At Risk
+844,135,3,1159.93,Brenda Villarreal,2023-11-24,2,4,3,243,243,At Risk
+845,70,4,3495.12,Daniel Barton,2023-11-18,3,5,5,355,355,Loyal Customers
+846,325,1,823.76,Daniel Miller,2024-04-21,1,1,2,112,112,Lost
+847,74,4,1266.49,Arthur White,2024-11-27,3,5,3,353,353,Need Attention
+848,94,3,1012.33,James Martin,2024-08-10,3,4,2,342,342,Lost
+849,5,6,3883.45,Andrew Williams,2024-11-28,5,5,5,555,555,Champions
+850,253,1,1927.19,Kellie Harvey,2024-08-08,1,1,4,114,114,About to Sleep
+851,63,1,578.63,Lisa Prince,2024-04-15,3,1,2,312,312,Lost
+852,137,6,3006.05,Caitlin Cooley,2023-06-17,2,5,5,255,255,At Risk
+853,119,2,684.18,Nancy Williamson,2024-06-11,2,3,2,232,232,Lost
+854,136,2,2088.32,Nicole Marshall,2024-01-19,2,3,4,234,234,At Risk
+855,329,2,1003.54,Emily Martinez,2023-11-06,1,3,2,132,132,Hibernating
+856,28,4,1204.6,Brenda Gonzales,2024-09-26,4,5,3,453,453,Lost
+857,80,4,2418.02,Samantha Allen,2024-07-11,3,5,4,354,354,Loyal Customers
+858,1,3,3776.9,Ralph Gray,2025-05-13,5,4,5,545,545,Champions
+859,92,3,2008.56,Michael Payne,2024-08-14,3,4,4,344,344,Loyal Customers
+860,56,3,1980.66,Tammy Johnston,2024-07-06,3,4,4,344,344,Loyal Customers
+861,109,2,371.87,Brandy Henry,2024-12-06,2,3,1,231,231,Hibernating
+862,40,4,2475.43,Courtney Young,2023-09-10,4,5,4,454,454,Champions
+863,172,2,1569.25,Dennis Jackson,2024-08-14,2,3,4,234,234,At Risk
+864,7,2,1430.71,Ariana Lewis,2023-09-27,5,3,3,533,533,Potential Loyalists
+865,117,2,767.16,David Mahoney,2023-10-27,2,3,2,232,232,Lost
+866,269,4,1001.57,Jeffrey Watts,2023-07-01,1,5,2,152,152,At Risk
+867,128,2,2139.65,John Edwards,2024-07-08,2,3,4,234,234,At Risk
+868,185,4,4856.0,Andrew Hicks,2024-01-18,1,5,5,155,155,About to Sleep
+869,49,7,4558.56,William Thomas,2023-12-24,3,5,5,355,355,Loyal Customers
+870,89,4,5489.1,Jill Kirby,2023-09-14,3,5,5,355,355,Loyal Customers
+871,55,2,682.27,Samantha Howard,2025-01-07,3,3,2,332,332,Hibernating
+872,168,3,2833.29,Kayla Fisher,2023-08-10,2,4,5,245,245,At Risk
+873,11,2,1019.77,Anthony Duncan,2025-05-14,5,3,2,532,532,Potential Loyalists
+874,161,4,1262.08,Donald Lopez,2023-11-30,2,5,3,253,253,At Risk
+875,244,2,1464.75,Aaron Black,2023-06-15,1,3,3,133,133,Lost
+876,1,4,1718.09,Gabrielle Daniels,2025-04-18,5,5,4,554,554,Champions
+877,137,4,1321.08,Angela Davis,2024-08-18,2,5,3,253,253,At Risk
+878,49,3,1452.3,Steve Nelson,2024-08-18,3,4,3,343,343,Need Attention
+879,163,1,2140.82,Tracy Hernandez,2023-08-17,2,1,4,214,214,About to Sleep
+880,262,1,1255.19,Tiffany Arnold,2023-08-10,1,1,3,113,113,About to Sleep
+881,188,2,64.59,Kelly Ellis,2024-02-01,1,3,1,131,131,Lost
+882,145,1,333.28,Patricia Cross,2024-12-03,2,1,1,211,211,Hibernating
+883,63,4,1657.96,Christine Dennis,2024-03-21,3,5,4,354,354,Loyal Customers
+884,225,7,3008.17,Robert Donovan,2023-07-22,1,5,5,155,155,About to Sleep
+885,201,2,387.72,Adrian Gutierrez,2024-04-20,1,3,1,131,131,Lost
+886,28,5,2956.75,Oscar Kelly,2023-11-20,4,5,5,455,455,Champions
+887,26,4,3159.55,Rachel Mason,2023-10-30,4,5,5,455,455,Champions
+888,157,2,796.82,Angela Barber,2023-11-03,2,3,2,232,232,Lost
+889,40,4,5268.14,Krista Vargas,2024-12-15,4,5,5,455,455,Champions
+890,95,2,1720.49,Melinda Jensen,2024-06-29,3,3,4,334,334,Need Attention
+891,17,3,1533.47,Jill Garner,2024-08-11,5,4,3,543,543,Loyal Customers
+892,98,1,183.41,Danielle Henry MD,2025-01-12,2,1,1,211,211,Hibernating
+893,227,2,689.06,Shawn Maynard,2024-04-23,1,3,2,132,132,Hibernating
+894,63,2,1070.42,Danielle Atkinson,2024-06-25,3,3,3,333,333,Need Attention
+895,20,2,459.02,Richard Campbell,2025-01-20,4,3,1,431,431,Lost
+896,128,1,897.04,Alan Hodge,2023-12-27,2,1,2,212,212,Hibernating
+897,64,4,2806.01,Mr. Wyatt Henry PhD,2023-08-19,3,5,5,355,355,Loyal Customers
+898,10,3,1375.32,Christopher Dickerson,2023-07-26,5,4,3,543,543,Loyal Customers
+899,59,1,469.19,Joe Brown,2025-02-16,3,1,1,311,311,New Customers
+900,113,5,3395.9,Megan Reyes,2023-11-07,2,5,5,255,255,At Risk
+901,12,3,1402.96,Austin Davenport,2024-08-14,5,4,3,543,543,Loyal Customers
+902,95,2,1030.21,Anthony Cook,2023-10-27,3,3,3,333,333,Need Attention
+903,64,2,957.79,Erica Cole,2025-02-10,3,3,2,332,332,Hibernating
+904,209,2,725.57,Daniel Brown,2024-09-01,1,3,2,132,132,Hibernating
+905,151,4,1414.24,Ashley Adams,2024-06-05,2,5,3,253,253,At Risk
+906,246,2,554.17,Jay Johnson,2023-10-21,1,3,1,131,131,Lost
+907,7,6,3917.65,Jamie Walker,2025-01-26,5,5,5,555,555,Champions
+908,142,2,183.83,Ashley Munoz,2024-04-10,2,3,1,231,231,Hibernating
+909,181,5,2429.58,Gary Jackson,2024-04-05,2,5,4,254,254,At Risk
+910,300,3,1338.04,Carolyn Gardner,2023-12-06,1,4,3,143,143,At Risk
+911,14,3,762.27,Tyler Sanchez,2025-03-09,5,4,2,542,542,Potential Loyalists
+912,10,3,1522.57,David Ellison,2025-04-02,5,4,3,543,543,Loyal Customers
+913,491,2,302.39,Lisa Bean,2023-08-15,1,3,1,131,131,Lost
+914,35,2,2651.32,Jerome Howell,2025-04-09,4,3,5,435,435,Loyal Customers
+915,146,4,1957.73,Brian Bullock,2023-06-16,2,5,4,254,254,At Risk
+916,8,2,1413.96,Daniel Ingram,2025-01-12,5,3,3,533,533,Potential Loyalists
+917,27,2,130.88,Timothy Moody,2024-02-12,4,3,1,431,431,Lost
+918,104,7,6597.79,Mary Choi,2023-10-10,2,5,5,255,255,At Risk
+919,35,3,2278.46,Daniel Deleon,2023-10-12,4,4,4,444,444,Loyal Customers
+920,390,1,3014.66,Kevin King,2023-09-15,1,1,5,115,115,About to Sleep
+921,204,2,3341.11,Dennis Guerra,2023-10-16,1,3,5,135,135,At Risk
+922,40,2,399.42,Russell Davis,2024-06-27,4,3,1,431,431,Lost
+923,408,1,1471.97,Alexandra Armstrong,2024-01-14,1,1,3,113,113,About to Sleep
+924,9,2,2861.19,Michelle Price,2024-08-23,5,3,5,535,535,Lost
+925,9,3,1921.5,William Fuentes,2024-01-19,5,4,4,544,544,Champions
+926,5,5,1178.81,Angela Crawford,2023-09-17,5,5,3,553,553,Potential Loyalists
+927,39,4,2822.09,Amanda Watts,2024-12-30,4,5,5,455,455,Champions
+928,10,3,1182.57,Sara Johnson,2024-12-10,5,4,3,543,543,Loyal Customers
+929,60,2,2078.08,Tonya Bell,2025-02-14,3,3,4,334,334,Need Attention
+930,36,3,2091.96,Jose Cook,2024-06-15,4,4,4,444,444,Loyal Customers
+931,36,4,1163.39,James Newman,2024-06-13,4,5,3,453,453,Lost
+932,32,2,549.19,Jonathan Rivera,2025-02-24,4,3,1,431,431,Lost
+933,43,1,107.92,Michael Jones,2024-04-10,4,1,1,411,411,New Customers
+934,10,3,450.74,Stephen Harris,2024-10-23,5,4,1,541,541,Potential Loyalists
+935,15,4,1423.6,Valerie Miller,2023-06-10,5,5,3,553,553,Potential Loyalists
+936,385,2,2102.44,Lawrence Martin,2023-11-18,1,3,4,134,134,At Risk
+937,89,6,4204.5,Stephen Rose,2023-07-01,3,5,5,355,355,Loyal Customers
+938,3,3,825.42,Amanda Davidson,2024-08-05,5,4,2,542,542,Potential Loyalists
+939,158,2,1503.38,Karl May,2023-09-04,2,3,3,233,233,Lost
+940,155,3,856.51,Peter Thompson,2023-10-05,2,4,2,242,242,At Risk
+941,61,4,3476.1,Cindy Carlson,2024-03-09,3,5,5,355,355,Loyal Customers
+942,1,4,1482.25,Phillip Norris,2025-06-07,5,5,3,553,553,Potential Loyalists
+943,32,1,46.36,Jacob Crosby,2025-01-25,4,1,1,411,411,New Customers
+944,6,4,2582.31,Savannah Estrada,2025-05-02,5,5,5,555,555,Champions
+945,3,2,1554.74,Jennifer Lopez,2025-04-08,5,3,3,533,533,Potential Loyalists
+946,271,2,614.87,Eric Wright,2023-07-15,1,3,2,132,132,Hibernating
+947,153,1,130.85,Melissa Spears,2023-09-13,2,1,1,211,211,Hibernating
+948,16,2,215.2,Kimberly Newman,2025-04-27,5,3,1,531,531,Potential Loyalists
+949,5,3,632.35,Tony Hansen,2025-04-23,5,4,2,542,542,Potential Loyalists
+950,66,5,1383.01,Gary Castillo,2023-10-10,3,5,3,353,353,Need Attention
+951,311,4,3613.48,Wesley Brown MD,2023-12-27,1,5,5,155,155,About to Sleep
+952,71,7,2966.75,Joshua Smith,2024-07-20,3,5,5,355,355,Loyal Customers
+953,121,1,62.5,Heather Webb,2024-11-28,2,1,1,211,211,Hibernating
+954,89,4,1463.69,Steven Hayes,2024-07-07,3,5,3,353,353,Need Attention
+955,9,3,992.03,Dr. Danielle Leblanc,2024-10-31,5,4,2,542,542,Potential Loyalists
+956,2,4,1414.44,Steven Campbell,2025-06-03,5,5,3,553,553,Potential Loyalists
+957,68,4,1270.0,Christopher Werner,2023-10-23,3,5,3,353,353,Need Attention
+958,130,1,93.28,Kirk Powell,2024-12-05,2,1,1,211,211,Hibernating
+959,39,6,4435.5,Laura Daniel,2024-07-03,4,5,5,455,455,Champions
+960,84,4,1840.1,James Hess,2024-09-07,3,5,4,354,354,Loyal Customers
+961,26,2,635.02,Alexandra Robinson,2024-09-25,4,3,2,432,432,Lost
+962,82,4,814.11,James Williams,2023-06-20,3,5,2,352,352,Lost
+963,23,4,4150.45,Michelle Larson,2023-08-22,4,5,5,455,455,Champions
+964,25,3,1786.55,Charles Weaver,2024-04-26,4,4,4,444,444,Loyal Customers
+965,66,1,171.22,Madison Davis,2024-04-27,3,1,1,311,311,New Customers
+966,165,2,281.63,Michael Schmitt,2023-11-13,2,3,1,231,231,Hibernating
+967,425,2,1327.91,Stephen Spencer,2023-08-21,1,3,3,133,133,Lost
+968,11,2,751.84,Alexander Ward,2025-04-22,5,3,2,532,532,Potential Loyalists
+969,22,2,1393.59,Julia Williamson,2024-12-16,4,3,3,433,433,Lost
+970,13,3,805.55,Douglas Taylor,2024-07-15,5,4,2,542,542,Potential Loyalists
+971,25,2,905.39,Allen Moran,2025-04-15,4,3,2,432,432,Lost
+972,26,4,277.83,Daniel Ward,2023-10-09,4,5,1,451,451,Lost
+973,120,5,3660.21,Chad Carroll,2024-08-16,2,5,5,255,255,At Risk
+974,32,3,2715.1,Christine Mills,2025-01-31,4,4,5,445,445,Champions
+975,54,4,3909.83,Jessica Robinson,2024-10-21,3,5,5,355,355,Loyal Customers
+976,243,1,1063.85,Michael Calhoun,2024-09-25,1,1,3,113,113,About to Sleep
+977,65,2,1158.53,Matthew Kaufman,2024-10-22,3,3,3,333,333,Need Attention
+978,213,3,4230.23,Latoya Robles,2024-01-30,1,4,5,145,145,At Risk
+979,40,7,1201.54,Morgan Cohen,2025-01-04,4,5,3,453,453,Lost
+980,15,7,3762.68,Joseph Anderson,2024-06-29,5,5,5,555,555,Champions
+981,12,4,4430.84,Yolanda Smith,2024-11-24,5,5,5,555,555,Champions
+982,170,2,160.77,Nancy Walker,2023-12-22,2,3,1,231,231,Hibernating
+983,11,3,1344.88,James Nelson,2025-02-03,5,4,3,543,543,Loyal Customers
+984,375,2,1294.44,Amber Barrett,2023-07-08,1,3,3,133,133,Lost
+985,33,6,3305.88,Patrick Ortega,2024-10-30,4,5,5,455,455,Champions
+986,7,2,1130.5,Destiny Duncan,2023-10-19,5,3,3,533,533,Potential Loyalists
+987,110,3,988.88,Mary May,2023-09-22,2,4,2,242,242,At Risk
+988,87,2,1388.63,Barbara Weber,2024-06-05,3,3,3,333,333,Need Attention
+989,221,1,1350.3,Kevin Jones,2023-12-18,1,1,3,113,113,About to Sleep
+990,280,4,3849.72,Jennifer Warren,2023-09-30,1,5,5,155,155,About to Sleep
+991,104,2,819.42,Rachel Mills,2024-07-17,2,3,2,232,232,Lost
+992,28,6,3230.37,Courtney Whitehead,2023-06-18,4,5,5,455,455,Champions
+993,8,2,1301.74,Mr. Brian Jackson,2025-05-26,5,3,3,533,533,Potential Loyalists
+994,32,3,3863.35,Ashley Jones,2024-04-30,4,4,5,445,445,Champions
+995,105,1,168.8,Stephen Hall,2024-12-14,2,1,1,211,211,Hibernating
+996,315,2,4232.32,Christine Wilson,2023-10-06,1,3,5,135,135,At Risk
+997,31,2,2111.92,Cristina Evans,2025-02-16,4,3,4,434,434,Lost
+998,18,3,1817.8,Jasmine Acosta,2025-02-07,4,4,4,444,444,Loyal Customers
+999,28,3,1190.94,Zachary Perez,2024-12-23,4,4,3,443,443,Lost
+1000,164,2,1772.01,Christian Nixon,2023-09-19,2,3,4,234,234,At Risk
