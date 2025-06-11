@@ -256,4 +256,3 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ---
 
-*This repository demonstrates production-ready data science capabilities with measurable business impact, suitable for portfolio evaluation and technical assessment.*
